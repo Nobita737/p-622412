@@ -1,0 +1,149 @@
+
+{
+  "Campaign": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "string", "format": "uuid" },
+      "name": { "type": "string", "minLength": 1, "maxLength": 100 },
+      "description": { "type": "string", "maxLength": 500 },
+      "status": { "type": "string", "enum": ["draft", "live", "paused", "completed", "cancelled"] },
+      "startDate": { "type": "string", "format": "date-time" },
+      "endDate": { "type": "string", "format": "date-time" },
+      "budget": {
+        "type": "object",
+        "properties": {
+          "total": { "type": "number", "minimum": 0 },
+          "spent": { "type": "number", "minimum": 0 },
+          "remaining": { "type": "number", "minimum": 0 },
+          "currency": { "type": "string", "default": "USD" }
+        }
+      },
+      "targeting": {
+        "type": "object",
+        "properties": {
+          "demographics": {
+            "type": "object",
+            "properties": {
+              "ageRange": { "type": "array", "items": { "type": "integer" } },
+              "gender": { "type": "array", "items": { "type": "string" } },
+              "location": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "interests": { "type": "array", "items": { "type": "string" } },
+          "platforms": { "type": "array", "items": { "type": "string" } }
+        }
+      },
+      "metrics": {
+        "type": "object",
+        "properties": {
+          "reach": { "type": "integer", "minimum": 0 },
+          "impressions": { "type": "integer", "minimum": 0 },
+          "engagement": { "type": "integer", "minimum": 0 },
+          "clicks": { "type": "integer", "minimum": 0 },
+          "conversions": { "type": "integer", "minimum": 0 },
+          "roi": { "type": "number" },
+          "cpe": { "type": "number", "minimum": 0 },
+          "cpm": { "type": "number", "minimum": 0 }
+        }
+      },
+      "createdAt": { "type": "string", "format": "date-time" },
+      "updatedAt": { "type": "string", "format": "date-time" }
+    },
+    "required": ["id", "name", "status", "startDate", "endDate", "budget"]
+  },
+  
+  "Creator": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "string", "format": "uuid" },
+      "name": { "type": "string", "minLength": 1, "maxLength": 100 },
+      "handle": { "type": "string", "pattern": "^@[a-zA-Z0-9_]+$" },
+      "email": { "type": "string", "format": "email" },
+      "avatar": { "type": "string", "format": "uri" },
+      "platforms": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "platform": { "type": "string", "enum": ["instagram", "tiktok", "youtube", "twitter"] },
+            "handle": { "type": "string" },
+            "followers": { "type": "integer", "minimum": 0 },
+            "verificationStatus": { "type": "string", "enum": ["verified", "pending", "unverified"] }
+          }
+        }
+      },
+      "demographics": {
+        "type": "object",
+        "properties": {
+          "age": { "type": "integer", "minimum": 13 },
+          "location": { "type": "string" },
+          "languages": { "type": "array", "items": { "type": "string" } }
+        }
+      },
+      "metrics": {
+        "type": "object",
+        "properties": {
+          "avgEngagementRate": { "type": "number", "minimum": 0, "maximum": 100 },
+          "avgCpe": { "type": "number", "minimum": 0 },
+          "totalReach": { "type": "integer", "minimum": 0 },
+          "campaignsCompleted": { "type": "integer", "minimum": 0 },
+          "rating": { "type": "number", "minimum": 0, "maximum": 5 }
+        }
+      },
+      "paymentInfo": {
+        "type": "object",
+        "properties": {
+          "method": { "type": "string", "enum": ["paypal", "stripe", "bank_transfer"] },
+          "details": { "type": "object" },
+          "status": { "type": "string", "enum": ["verified", "pending", "failed"] }
+        }
+      },
+      "status": { "type": "string", "enum": ["active", "inactive", "suspended"] },
+      "createdAt": { "type": "string", "format": "date-time" },
+      "updatedAt": { "type": "string", "format": "date-time" }
+    },
+    "required": ["id", "name", "handle", "email", "status"]
+  },
+
+  "Payment": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "string", "format": "uuid" },
+      "campaignId": { "type": "string", "format": "uuid" },
+      "creatorId": { "type": "string", "format": "uuid" },
+      "amount": { "type": "number", "minimum": 0 },
+      "currency": { "type": "string", "default": "USD" },
+      "status": { "type": "string", "enum": ["pending", "processing", "completed", "failed", "cancelled"] },
+      "dueDate": { "type": "string", "format": "date-time" },
+      "paidDate": { "type": "string", "format": "date-time" },
+      "method": { "type": "string", "enum": ["paypal", "stripe", "bank_transfer"] },
+      "reference": { "type": "string" },
+      "retryCount": { "type": "integer", "minimum": 0, "default": 0 },
+      "lastRetryDate": { "type": "string", "format": "date-time" },
+      "failureReason": { "type": "string" },
+      "createdAt": { "type": "string", "format": "date-time" },
+      "updatedAt": { "type": "string", "format": "date-time" }
+    },
+    "required": ["id", "campaignId", "creatorId", "amount", "status", "dueDate", "method"]
+  },
+
+  "Alert": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "string", "format": "uuid" },
+      "type": { "type": "string", "enum": ["budget_low", "payment_failed", "campaign_ending", "kpi_drop", "content_overdue"] },
+      "severity": { "type": "string", "enum": ["low", "medium", "high", "critical"] },
+      "title": { "type": "string", "minLength": 1, "maxLength": 100 },
+      "description": { "type": "string", "maxLength": 500 },
+      "entityType": { "type": "string", "enum": ["campaign", "creator", "payment", "budget"] },
+      "entityId": { "type": "string", "format": "uuid" },
+      "threshold": { "type": "number" },
+      "currentValue": { "type": "number" },
+      "status": { "type": "string", "enum": ["active", "acknowledged", "resolved", "dismissed"] },
+      "channels": { "type": "array", "items": { "type": "string", "enum": ["in_app", "email", "slack", "webhook"] } },
+      "createdAt": { "type": "string", "format": "date-time" },
+      "updatedAt": { "type": "string", "format": "date-time" }
+    },
+    "required": ["id", "type", "severity", "title", "entityType", "entityId", "status"]
+  }
+}
