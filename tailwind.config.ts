@@ -1,6 +1,7 @@
 
 import type { Config } from "tailwindcss";
 
+// Palette derived from Campayn logo (Teal/Aqua: #37C8AB, Navy: #203149, White, Greys)
 export default {
   darkMode: ["class"],
   content: [
@@ -23,58 +24,77 @@ export default {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        background: {
+          DEFAULT: "#f6fcfa",
+          50: "#f6fcfa",
+        },
+        foreground: "#203149",
+        // Main Campayn Teal (Logo): #37C8AB
         primary: {
-          DEFAULT: "#1A3E5C", // Deep blue
+          DEFAULT: "#37C8AB",
           foreground: "#ffffff",
-          25: "#f8fafc",
-          50: "#f0f7ff",
-          100: "#e0efff",
-          200: "#b8dcff",
-          300: "#7bb8ff",
-          400: "#3693ff",
-          500: "#0066CC", // Accent blue
-          600: "#0052a3",
-          700: "#004085",
-          800: "#003366",
-          900: "#1A3E5C", // Deep blue
+          25: "#e6faf4",
+          50: "#d0f5ec",
+          100: "#baf0e4",
+          200: "#87e4d0",
+          300: "#53d7bb",
+          400: "#37c8ab", // Logo base
+          500: "#2dad95",
+          600: "#20997f",
+          700: "#18866c",
+          800: "#146759",
+          900: "#203149",
         },
+        // Campayn Navy: #203149
         secondary: {
-          DEFAULT: "#f8fafc",
-          foreground: "#1A3E5C",
-        },
-        muted: {
-          DEFAULT: "#f1f5f9",
-          foreground: "#475569",
+          DEFAULT: "#203149",
+          foreground: "#ffffff",
         },
         accent: {
-          DEFAULT: "#0066CC", // Accent blue
+          DEFAULT: "#20b8c6", // A vivid aqua accent drawn from logo gradients.
           foreground: "#ffffff",
+        },
+        muted: {
+          DEFAULT: "#e6f3f1",
+          foreground: "#57696c",
         },
         card: {
           DEFAULT: "#ffffff",
-          foreground: "#1A3E5C",
+          foreground: "#203149",
         },
         destructive: {
-          DEFAULT: "#dc2626",
+          DEFAULT: "#F04438",
           foreground: "#ffffff",
         },
         popover: {
           DEFAULT: "#ffffff",
-          foreground: "#1A3E5C",
+          foreground: "#203149",
         },
         success: {
-          DEFAULT: "#059669",
+          DEFAULT: "#53D7BB",
           foreground: "#ffffff",
         },
         warning: {
-          DEFAULT: "#d97706",
-          foreground: "#ffffff",
+          DEFAULT: "#F5C244",
+          foreground: "#203149",
         },
         slate: {
           25: "#fcfcfd",
+          50: "#f8fafc",
+          100: "#eef3f4",
+          200: "#dbe9ea",
+          300: "#b9d8d9",
+          400: "#81bfbf", // For borders
+          500: "#719fab",
+          600: "#517989",
+          700: "#365060",
+          800: "#24303a",
+          900: "#20262c",
         },
+      },
+      fontFamily: {
+        // Add a modern rounded font stack (Roboto/Inter/Fallback)
+        'sans': ['Inter', 'Roboto', 'Arial', 'Helvetica', 'sans-serif'],
       },
       gridTemplateColumns: {
         '25': 'repeat(25, minmax(0, 1fr))',
@@ -101,9 +121,9 @@ export default {
           "0%": { transform: "scale(0.95)", opacity: "0" },
           "100%": { transform: "scale(1)", opacity: "1" },
         },
-        "pulse-blue": {
-          "0%, 100%": { backgroundColor: "#0066CC" },
-          "50%": { backgroundColor: "#3693ff" },
+        "pulse-campayn": {
+          "0%, 100%": { backgroundColor: "#37C8AB" },
+          "50%": { backgroundColor: "#20b8c6" },
         },
       },
       animation: {
@@ -111,14 +131,15 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in": "fade-in 0.3s ease-out",
         "scale-in": "scale-in 0.2s ease-out",
-        "pulse-blue": "pulse-blue 2s infinite",
+        "pulse-campayn": "pulse-campayn 2s infinite",
       },
       boxShadow: {
-        'card': '0 4px 6px -1px rgba(26, 62, 92, 0.1), 0 2px 4px -1px rgba(26, 62, 92, 0.06)',
-        'card-hover': '0 10px 15px -3px rgba(26, 62, 92, 0.1), 0 4px 6px -2px rgba(26, 62, 92, 0.05)',
-        'elevation': '0 20px 25px -5px rgba(26, 62, 92, 0.1), 0 10px 10px -5px rgba(26, 62, 92, 0.04)',
+        'card': '0 4px 6px -1px rgba(32,49,73,0.07), 0 2px 4px -1px rgba(32,49,73,0.04)',
+        'card-hover': '0 10px 15px -3px rgba(32,49,73,0.10), 0 4px 6px -2px rgba(32,49,73,0.03)',
+        'elevation': '0 20px 25px -5px rgba(32,49,73,0.10), 0 10px 10px -5px rgba(32,49,73,0.04)',
       },
     },
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+

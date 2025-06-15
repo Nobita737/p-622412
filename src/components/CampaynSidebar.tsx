@@ -1,7 +1,9 @@
+
 import { Home, Users, BarChart3, DollarSign, FileText, HelpCircle, Target } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Link, useLocation } from "react-router-dom";
 
+// Use theme colors and update color classes based on palette (primary/secondary/teal).
 const menuItems = [
   { icon: Home, label: "Dashboard", path: "/" },
   { icon: Target, label: "Campaigns", path: "/campaigns" },
@@ -16,7 +18,7 @@ const CampaynSidebar = () => {
   const location = useLocation();
 
   return (
-    <div className="fixed left-0 top-0 h-full w-64 bg-slate-900 border-r border-slate-700">
+    <div className="fixed left-0 top-0 h-full w-64 bg-primary-900 border-r border-primary-100">
       <div className="flex flex-col h-full">
         <div className="p-6">
           <div className="flex items-center space-x-2">
@@ -25,7 +27,7 @@ const CampaynSidebar = () => {
               alt="Campayn Logo" 
               className="w-8 h-8"
             />
-            <h2 className="text-2xl font-bold text-white">Campayn</h2>
+            <h2 className="text-2xl font-bold text-white font-sans tracking-tight">Campayn</h2>
           </div>
         </div>
         
@@ -40,11 +42,10 @@ const CampaynSidebar = () => {
                   <Link
                     to={item.path}
                     className={cn(
-                      "flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200",
-                      "hover:bg-slate-800",
+                      "flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 hover:bg-primary-800",
                       isActive 
-                        ? "bg-teal-600 text-white" 
-                        : "text-slate-300 hover:text-white"
+                        ? "bg-primary-400 text-white" 
+                        : "text-primary-100 hover:text-white"
                     )}
                   >
                     <Icon className="h-5 w-5" />
@@ -56,14 +57,14 @@ const CampaynSidebar = () => {
           </ul>
         </nav>
 
-        <div className="p-4 mt-auto border-t border-slate-700">
+        <div className="p-4 mt-auto border-t border-primary-100">
           <div className="flex items-center gap-3 px-4 py-3">
-            <div className="h-8 w-8 rounded-full bg-teal-500 flex items-center justify-center">
+            <div className="h-8 w-8 rounded-full bg-primary-400 flex items-center justify-center shadow-card">
               <span className="text-white text-sm font-medium">JD</span>
             </div>
             <div className="flex flex-col">
               <span className="text-sm font-medium text-white">John Doe</span>
-              <span className="text-xs text-slate-400">Brand Manager</span>
+              <span className="text-xs text-primary-200">Brand Manager</span>
             </div>
           </div>
         </div>
@@ -73,3 +74,4 @@ const CampaynSidebar = () => {
 };
 
 export default CampaynSidebar;
+

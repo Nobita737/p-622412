@@ -15,9 +15,9 @@ import { MessageCircle, HelpCircle } from "lucide-react";
 
 const CreateCampaign = () => {
   return (
-    <div className="bg-[#f7f7fb] min-h-screen">
+    <div className="bg-background min-h-screen font-sans">
       {/* Header Bar */}
-      <header className="flex items-center justify-between px-8 py-6 bg-white border-b rounded-b-2xl shadow-sm">
+      <header className="flex items-center justify-between px-8 py-6 bg-white border-b border-primary-100 rounded-b-2xl shadow-sm">
         <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-2">
             <img 
@@ -25,17 +25,17 @@ const CreateCampaign = () => {
               alt="Campayn Logo" 
               className="w-8 h-8"
             />
-            <h1 className="text-2xl font-bold text-slate-900">Campayn</h1>
+            <h1 className="text-2xl font-bold text-primary-900 font-sans tracking-tight">Campayn</h1>
           </div>
         </div>
         <div className="flex items-center space-x-6">
-          <button className="hover:scale-110 transition-transform p-2 hover:bg-slate-100 rounded-full">
-            <HelpCircle className="h-5 w-5 text-slate-500" />
+          <button className="hover:scale-110 transition-transform p-2 hover:bg-primary-50 rounded-full">
+            <HelpCircle className="h-5 w-5 text-primary-400" />
           </button>
-          <button className="hover:scale-110 transition-transform p-2 hover:bg-slate-100 rounded-full">
-            <MessageCircle className="h-5 w-5 text-slate-500" />
+          <button className="hover:scale-110 transition-transform p-2 hover:bg-primary-50 rounded-full">
+            <MessageCircle className="h-5 w-5 text-primary-400" />
           </button>
-          <button className="ml-4 bg-[#7C3AED] text-white px-6 py-2 rounded-full text-base shadow hover:bg-[#6d28d9] transition-colors">
+          <button className="ml-4 bg-primary-400 text-white px-6 py-2 rounded-full text-base shadow hover:bg-primary-500 font-semibold transition-colors">
             Login
           </button>
         </div>
