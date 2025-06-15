@@ -28,6 +28,7 @@ export default {
         primary: {
           DEFAULT: "#1A3E5C", // Deep blue
           foreground: "#ffffff",
+          25: "#f8fafc",
           50: "#f0f7ff",
           100: "#e0efff",
           200: "#b8dcff",
@@ -71,6 +72,12 @@ export default {
           DEFAULT: "#d97706",
           foreground: "#ffffff",
         },
+        slate: {
+          25: "#fcfcfd",
+        },
+      },
+      gridTemplateColumns: {
+        '25': 'repeat(25, minmax(0, 1fr))',
       },
       borderRadius: {
         lg: "var(--radius)",
