@@ -9,7 +9,198 @@ export type Json =
 export type Database = {
   public: {
     Tables: {
-      [_ in never]: never
+      campaigns: {
+        Row: {
+          clicks: number
+          conversions: number
+          created_at: string
+          emv_amount: number
+          end_date: string | null
+          engagements: number
+          id: string
+          impressions: number
+          name: string
+          spend_amount: number
+          start_date: string | null
+          status: string
+          updated_at: string
+        }
+        Insert: {
+          clicks?: number
+          conversions?: number
+          created_at?: string
+          emv_amount?: number
+          end_date?: string | null
+          engagements?: number
+          id?: string
+          impressions?: number
+          name: string
+          spend_amount?: number
+          start_date?: string | null
+          status: string
+          updated_at?: string
+        }
+        Update: {
+          clicks?: number
+          conversions?: number
+          created_at?: string
+          emv_amount?: number
+          end_date?: string | null
+          engagements?: number
+          id?: string
+          impressions?: number
+          name?: string
+          spend_amount?: number
+          start_date?: string | null
+          status?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      content_types: {
+        Row: {
+          content_count: number
+          created_at: string
+          engagement_rate: number
+          id: string
+          type_name: string
+        }
+        Insert: {
+          content_count?: number
+          created_at?: string
+          engagement_rate: number
+          id?: string
+          type_name: string
+        }
+        Update: {
+          content_count?: number
+          created_at?: string
+          engagement_rate?: number
+          id?: string
+          type_name?: string
+        }
+        Relationships: []
+      }
+      creator_tiers: {
+        Row: {
+          color_hex: string
+          created_at: string
+          id: string
+          percentage: number
+          tier_name: string
+          tier_range: string
+        }
+        Insert: {
+          color_hex: string
+          created_at?: string
+          id?: string
+          percentage: number
+          tier_name: string
+          tier_range: string
+        }
+        Update: {
+          color_hex?: string
+          created_at?: string
+          id?: string
+          percentage?: number
+          tier_name?: string
+          tier_range?: string
+        }
+        Relationships: []
+      }
+      engagement_heatmap: {
+        Row: {
+          created_at: string
+          day_of_week: string
+          engagement_value: number
+          hour_of_day: number
+          id: string
+        }
+        Insert: {
+          created_at?: string
+          day_of_week: string
+          engagement_value?: number
+          hour_of_day: number
+          id?: string
+        }
+        Update: {
+          created_at?: string
+          day_of_week?: string
+          engagement_value?: number
+          hour_of_day?: number
+          id?: string
+        }
+        Relationships: []
+      }
+      kpi_metrics: {
+        Row: {
+          created_at: string
+          id: string
+          metric_name: string
+          metric_value: number
+          period_end: string
+          period_start: string
+          trend_direction: string
+          trend_value: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          metric_name: string
+          metric_value: number
+          period_end: string
+          period_start: string
+          trend_direction: string
+          trend_value: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          metric_name?: string
+          metric_value?: number
+          period_end?: string
+          period_start?: string
+          trend_direction?: string
+          trend_value?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      performance_trends: {
+        Row: {
+          clicks: number
+          conversions: number
+          created_at: string
+          engagements: number
+          id: string
+          impressions: number
+          period_date: string
+          period_name: string
+        }
+        Insert: {
+          clicks?: number
+          conversions?: number
+          created_at?: string
+          engagements?: number
+          id?: string
+          impressions?: number
+          period_date: string
+          period_name: string
+        }
+        Update: {
+          clicks?: number
+          conversions?: number
+          created_at?: string
+          engagements?: number
+          id?: string
+          impressions?: number
+          period_date?: string
+          period_name?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
