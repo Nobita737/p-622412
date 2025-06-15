@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -13,6 +12,8 @@ import Analytics from "./pages/Analytics";
 import Budget from "./pages/Budget";
 import Reports from "./pages/Reports";
 import Help from "./pages/Help";
+import Settings from "./pages/Settings";
+import CreateCampaign from "./pages/CreateCampaign";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +37,8 @@ const App = () => (
                   <Route path="/budget" element={<Budget />} />
                   <Route path="/reports" element={<Reports />} />
                   <Route path="/help" element={<Help />} />
+                  <Route path="/settings" element={<Settings />} />
+                  <Route path="/create-campaign" element={<CreateCampaign />} />
                 </Routes>
               </div>
             </main>

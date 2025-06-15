@@ -1,4 +1,3 @@
-
 import { Bell, Settings, LogOut, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -8,8 +7,10 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { useNavigate } from "react-router-dom";
 
 const TopNavigation = () => {
+  const navigate = useNavigate();
   return (
     <header className="h-16 bg-white border-b border-slate-200 flex items-center justify-end px-6">
       <div className="flex items-center space-x-4">
@@ -33,7 +34,9 @@ const TopNavigation = () => {
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" className="w-56">
-            <DropdownMenuItem>
+            <DropdownMenuItem
+              onClick={() => navigate('/settings')}
+            >
               <Settings className="mr-2 h-4 w-4" />
               <span>Settings</span>
             </DropdownMenuItem>

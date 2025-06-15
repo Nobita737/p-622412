@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -6,6 +5,7 @@ import { Progress } from "@/components/ui/progress";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { Eye, Edit, Play, Pause, Copy, Plus, Filter, Search, MoreHorizontal, AlertTriangle, Info, Zap } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const campaignsData = [
   {
@@ -192,6 +192,7 @@ const CampaignRow = ({ campaign }: { campaign: typeof campaignsData[0] }) => (
 );
 
 const Campaigns = () => {
+  const navigate = useNavigate();
   return (
     <TooltipProvider>
       <div className="space-y-6">
@@ -220,7 +221,9 @@ const Campaigns = () => {
               <Filter className="h-4 w-4 mr-2" />
               Filters
             </Button>
-            <Button className="bg-teal-600 hover:bg-teal-700">
+            <Button className="bg-teal-600 hover:bg-teal-700"
+              onClick={() => navigate('/create-campaign')}
+            >
               <Plus className="h-4 w-4 mr-2" />
               Create Campaign
             </Button>
