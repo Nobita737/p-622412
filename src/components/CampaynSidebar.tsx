@@ -1,4 +1,3 @@
-
 import { Home, Users, BarChart3, DollarSign, FileText, HelpCircle, Target } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Link, useLocation } from "react-router-dom";
@@ -21,9 +20,11 @@ const CampaynSidebar = () => {
       <div className="flex flex-col h-full">
         <div className="p-6">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-teal-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">C</span>
-            </div>
+            <img 
+              src="/lovable-uploads/dbd91403-5d2d-4aa5-902a-c1a3df6966ea.png" 
+              alt="Campayn Logo" 
+              className="w-8 h-8"
+            />
             <h2 className="text-2xl font-bold text-white">Campayn</h2>
           </div>
         </div>

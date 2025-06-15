@@ -20,9 +20,11 @@ const CreateCampaign = () => {
       <header className="flex items-center justify-between px-8 py-6 bg-white border-b rounded-b-2xl shadow-sm">
         <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-teal-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">C</span>
-            </div>
+            <img 
+              src="/lovable-uploads/dbd91403-5d2d-4aa5-902a-c1a3df6966ea.png" 
+              alt="Campayn Logo" 
+              className="w-8 h-8"
+            />
             <h1 className="text-2xl font-bold text-slate-900">Campayn</h1>
           </div>
         </div>
