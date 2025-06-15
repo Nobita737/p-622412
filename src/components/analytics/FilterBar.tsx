@@ -59,14 +59,16 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         </div>
 
         <Select value={selectedCampaigns[0] || 'all'} onValueChange={(value) => onCampaignChange(value === 'all' ? [] : [value])}>
-          <SelectTrigger className="w-48">
+          <SelectTrigger className="w-56">
             <SelectValue placeholder="All Campaigns" />
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="all">All Campaigns</SelectItem>
-            <SelectItem value="campaign-1">Summer Collection Launch</SelectItem>
-            <SelectItem value="campaign-2">Black Friday 2024</SelectItem>
-            <SelectItem value="campaign-3">Influencer Collaboration</SelectItem>
+            <SelectItem value="diwali-collection">Diwali Festive Collection</SelectItem>
+            <SelectItem value="ipl-partnership">IPL Cricket Partnership</SelectItem>
+            <SelectItem value="regional-series">Regional Language Series</SelectItem>
+            <SelectItem value="bollywood-collab">Bollywood Celebrity Collab</SelectItem>
+            <SelectItem value="sustainable-fashion">Sustainable Fashion Drive</SelectItem>
           </SelectContent>
         </Select>
 
@@ -83,14 +85,16 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         </Select>
 
         <Select value={region} onValueChange={onRegionChange}>
-          <SelectTrigger className="w-32">
+          <SelectTrigger className="w-36">
             <SelectValue placeholder="Region" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="global">Global</SelectItem>
-            <SelectItem value="us">United States</SelectItem>
-            <SelectItem value="eu">Europe</SelectItem>
-            <SelectItem value="asia">Asia</SelectItem>
+            <SelectItem value="global">All India</SelectItem>
+            <SelectItem value="north">North India</SelectItem>
+            <SelectItem value="south">South India</SelectItem>
+            <SelectItem value="west">West India</SelectItem>
+            <SelectItem value="east">East India</SelectItem>
+            <SelectItem value="metro">Metro Cities</SelectItem>
           </SelectContent>
         </Select>
       </div>
@@ -167,7 +171,11 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           )}
           {region !== 'global' && (
             <Badge variant="secondary" className="bg-primary-50 text-primary-700">
-              {region}
+              {region === 'north' ? 'North India' : 
+               region === 'south' ? 'South India' : 
+               region === 'west' ? 'West India' : 
+               region === 'east' ? 'East India' : 
+               region === 'metro' ? 'Metro Cities' : region}
             </Badge>
           )}
         </div>

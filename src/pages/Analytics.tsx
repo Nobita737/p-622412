@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { AlertBanner } from '@/components/ui/alert-banner';
@@ -36,55 +37,58 @@ const Analytics = () => {
   const [compareMode, setCompareMode] = useState(false);
   const [selectedMetric, setSelectedMetric] = useState<string | null>(null);
 
-  // Mock data for KPIs
+  // Enhanced KPIs for Indian brand context
   const kpiData = {
-    totalCampaigns: { value: 24, trend: { value: '+12%', direction: 'up' as const } },
-    avgRoi: { value: 285, trend: { value: '+23%', direction: 'up' as const } },
-    avgCpa: { value: 32, trend: { value: '-15%', direction: 'down' as const } },
-    avgEngagementRate: { value: 5.2, trend: { value: '+8%', direction: 'up' as const } },
-    totalEmv: { value: 215000, trend: { value: '+45%', direction: 'up' as const } },
-    budgetUtilization: { value: 87, trend: { value: '+5%', direction: 'up' as const } }
+    totalCampaigns: { value: 5, trend: { value: '+25%', direction: 'up' as const } },
+    avgRoi: { value: 485, trend: { value: '+38%', direction: 'up' as const } },
+    avgCpa: { value: 18, trend: { value: '-28%', direction: 'down' as const } },
+    avgEngagementRate: { value: 8.7, trend: { value: '+42%', direction: 'up' as const } },
+    totalEmv: { value: 2850000, trend: { value: '+65%', direction: 'up' as const } },
+    budgetUtilization: { value: 92, trend: { value: '+12%', direction: 'up' as const } }
   };
 
-  // Mock data for charts
+  // Enhanced performance trends with Indian market data
   const performanceTrends = [
-    { name: 'Jan', impressions: 1200000, engagements: 62400, clicks: 3600, conversions: 180 },
-    { name: 'Feb', impressions: 1800000, engagements: 108000, clicks: 5400, conversions: 270 },
-    { name: 'Mar', impressions: 1500000, engagements: 82500, clicks: 4500, conversions: 225 },
-    { name: 'Apr', impressions: 2200000, engagements: 154000, clicks: 6600, conversions: 330 },
-    { name: 'May', impressions: 1900000, engagements: 133000, clicks: 5700, conversions: 285 },
-    { name: 'Jun', impressions: 2500000, engagements: 200000, clicks: 7500, conversions: 375 },
+    { name: 'Jan', impressions: 2800000, engagements: 243600, clicks: 12400, conversions: 890 },
+    { name: 'Feb', impressions: 3200000, engagements: 307200, clicks: 15800, conversions: 1250 },
+    { name: 'Mar', impressions: 2950000, engagements: 295000, clicks: 14200, conversions: 1150 },
+    { name: 'Apr', impressions: 4100000, engagements: 451000, clicks: 22500, conversions: 1680 },
+    { name: 'May', impressions: 3800000, engagements: 418000, clicks: 19500, conversions: 1520 },
+    { name: 'Jun', impressions: 4650000, engagements: 558000, clicks: 26200, conversions: 1950 },
   ];
 
   const funnelData = [
-    { name: 'Impressions', value: 2500000, percentage: 100 },
-    { name: 'Engagements', value: 200000, percentage: 8.0 },
-    { name: 'Clicks', value: 7500, percentage: 3.8 },
-    { name: 'Conversions', value: 375, percentage: 5.0 }
+    { name: 'Impressions', value: 4650000, percentage: 100 },
+    { name: 'Engagements', value: 558000, percentage: 12.0 },
+    { name: 'Clicks', value: 26200, percentage: 4.7 },
+    { name: 'Conversions', value: 1950, percentage: 7.4 }
   ];
 
+  // Indian creator landscape
   const creatorDiversityData = [
-    { name: 'Micro (1K-100K)', value: 45, color: '#0066CC' },
-    { name: 'Macro (100K-1M)', value: 35, color: '#3693ff' },
-    { name: 'Mega (1M+)', value: 20, color: '#7bb8ff' }
+    { name: 'Micro (1K-100K)', value: 52, color: '#0066CC' },
+    { name: 'Macro (100K-1M)', value: 33, color: '#3693ff' },
+    { name: 'Mega (1M+)', value: 15, color: '#7bb8ff' }
   ];
 
+  // Indian content preferences
   const contentTypeData = [
-    { type: 'Video', engagement: 65, count: 120 },
-    { type: 'Image', engagement: 45, count: 89 },
-    { type: 'Stories', engagement: 38, count: 156 },
-    { type: 'Reels', engagement: 72, count: 78 },
-    { type: 'Carousel', engagement: 52, count: 45 }
+    { type: 'Reels', engagement: 88, count: 245 },
+    { type: 'Stories', engagement: 72, count: 320 },
+    { type: 'Video', engagement: 68, count: 180 },
+    { type: 'Carousel', engagement: 55, count: 125 },
+    { type: 'Image', engagement: 48, count: 95 }
   ];
 
+  // Indian peak times heatmap
   const heatmapData = [
-    { day: 'Mon', hour: 9, value: 45 }, { day: 'Mon', hour: 12, value: 72 }, { day: 'Mon', hour: 18, value: 89 },
-    { day: 'Tue', hour: 10, value: 52 }, { day: 'Tue', hour: 14, value: 68 }, { day: 'Tue', hour: 19, value: 95 },
-    { day: 'Wed', hour: 8, value: 38 }, { day: 'Wed', hour: 13, value: 75 }, { day: 'Wed', hour: 20, value: 82 },
-    { day: 'Thu', hour: 11, value: 61 }, { day: 'Thu', hour: 15, value: 79 }, { day: 'Thu', hour: 17, value: 88 },
-    { day: 'Fri', hour: 9, value: 48 }, { day: 'Fri', hour: 16, value: 85 }, { day: 'Fri', hour: 21, value: 76 },
-    { day: 'Sat', hour: 10, value: 67 }, { day: 'Sat', hour: 14, value: 92 }, { day: 'Sat', hour: 20, value: 98 },
-    { day: 'Sun', hour: 11, value: 58 }, { day: 'Sun', hour: 15, value: 73 }, { day: 'Sun', hour: 19, value: 86 }
+    { day: 'Mon', hour: 9, value: 52 }, { day: 'Mon', hour: 13, value: 78 }, { day: 'Mon', hour: 20, value: 95 },
+    { day: 'Tue', hour: 10, value: 58 }, { day: 'Tue', hour: 14, value: 82 }, { day: 'Tue', hour: 21, value: 98 },
+    { day: 'Wed', hour: 8, value: 45 }, { day: 'Wed', hour: 13, value: 88 }, { day: 'Wed', hour: 19, value: 92 },
+    { day: 'Thu', hour: 11, value: 68 }, { day: 'Thu', hour: 15, value: 85 }, { day: 'Thu', hour: 20, value: 96 },
+    { day: 'Fri', hour: 9, value: 62 }, { day: 'Fri', hour: 17, value: 89 }, { day: 'Fri', hour: 22, value: 88 },
+    { day: 'Sat', hour: 11, value: 75 }, { day: 'Sat', hour: 16, value: 94 }, { day: 'Sat', hour: 21, value: 100 },
+    { day: 'Sun', hour: 12, value: 72 }, { day: 'Sun', hour: 18, value: 91 }, { day: 'Sun', hour: 20, value: 95 }
   ];
 
   const campaignColumns = [
@@ -93,13 +97,57 @@ const Analytics = () => {
     { key: 'impressions', label: 'Impressions', sortable: true },
     { key: 'engagement', label: 'Engagement Rate', sortable: true },
     { key: 'cpa', label: 'CPA', sortable: true },
-    { key: 'roi', label: 'ROI', sortable: true }
+    { key: 'roi', label: 'ROI', sortable: true },
+    { key: 'emv', label: 'EMV', sortable: true }
   ];
 
+  // Indian brand campaigns with great ROI
   const campaignData = [
-    { name: 'Summer Collection', status: 'Active', impressions: '2.5M', engagement: '5.2%', cpa: '$28', roi: '320%' },
-    { name: 'Black Friday', status: 'Completed', impressions: '3.8M', engagement: '6.1%', cpa: '$22', roi: '425%' },
-    { name: 'Influencer Collab', status: 'Active', impressions: '1.2M', engagement: '4.8%', cpa: '$35', roi: '280%' }
+    { 
+      name: 'Diwali Festive Collection', 
+      status: 'Active', 
+      impressions: '3.2M', 
+      engagement: '9.8%', 
+      cpa: '₹12', 
+      roi: '650%',
+      emv: '₹8.5L'
+    },
+    { 
+      name: 'IPL Cricket Partnership', 
+      status: 'Completed', 
+      impressions: '5.8M', 
+      engagement: '11.2%', 
+      cpa: '₹15', 
+      roi: '520%',
+      emv: '₹12.3L'
+    },
+    { 
+      name: 'Regional Language Series', 
+      status: 'Active', 
+      impressions: '2.1M', 
+      engagement: '7.5%', 
+      cpa: '₹18', 
+      roi: '425%',
+      emv: '₹6.8L'
+    },
+    { 
+      name: 'Bollywood Celebrity Collab', 
+      status: 'Completed', 
+      impressions: '4.5M', 
+      engagement: '8.9%', 
+      cpa: '₹22', 
+      roi: '380%',
+      emv: '₹11.2L'
+    },
+    { 
+      name: 'Sustainable Fashion Drive', 
+      status: 'Planning', 
+      impressions: '1.8M', 
+      engagement: '6.8%', 
+      cpa: '₹16', 
+      roi: '445%',
+      emv: '₹5.9L'
+    }
   ];
 
   const handleKpiClick = (metric: string) => {
@@ -131,11 +179,11 @@ const Analytics = () => {
 
       {/* Alert Banner */}
       <AlertBanner
-        type="warning"
-        title="Budget Alert"
-        description="Summer Collection campaign has exceeded 90% of allocated budget"
-        actionLabel="Review Budget"
-        onAction={() => console.log('Navigate to budget')}
+        type="success"
+        title="Campaign Performance Alert"
+        description="Diwali Festive Collection has achieved 650% ROI - highest performing campaign this quarter!"
+        actionLabel="View Details"
+        onAction={() => console.log('Navigate to campaign details')}
         onDismiss={() => console.log('Dismiss alert')}
       />
 
@@ -166,7 +214,7 @@ const Analytics = () => {
         {/* Performance Trends */}
         <Card id="performance-section" className="lg:col-span-2">
           <CardHeader>
-            <CardTitle className="text-xl font-semibold text-primary-800">Performance Trends</CardTitle>
+            <CardTitle className="text-xl font-semibold text-primary-800">Campaign Performance Trends - Indian Market</CardTitle>
           </CardHeader>
           <CardContent>
             <ChartContainer
@@ -205,18 +253,18 @@ const Analytics = () => {
           </CardHeader>
           <CardContent className="flex justify-center">
             <GaugeChart
-              value={285}
-              max={500}
+              value={485}
+              max={700}
               title="Return on Investment"
               unit="%"
             />
           </CardContent>
         </Card>
 
-        {/* Creator Diversity */}
+        {/* Creator Diversity - Indian Market */}
         <Card>
           <CardHeader>
-            <CardTitle className="text-xl font-semibold text-primary-800">Creator Diversity</CardTitle>
+            <CardTitle className="text-xl font-semibold text-primary-800">Indian Creator Diversity</CardTitle>
           </CardHeader>
           <CardContent>
             <ChartContainer
@@ -246,10 +294,10 @@ const Analytics = () => {
           </CardContent>
         </Card>
 
-        {/* Content Performance */}
+        {/* Content Performance - Indian Preferences */}
         <Card>
           <CardHeader>
-            <CardTitle className="text-xl font-semibold text-primary-800">Content Type Performance</CardTitle>
+            <CardTitle className="text-xl font-semibold text-primary-800">Content Type Performance (Indian Market)</CardTitle>
           </CardHeader>
           <CardContent>
             <ChartContainer
@@ -270,18 +318,18 @@ const Analytics = () => {
         </Card>
       </div>
 
-      {/* Optimal Posting Times Heatmap */}
+      {/* Optimal Posting Times Heatmap - Indian Time Zones */}
       <div id="timing-section">
         <HeatmapChart
           data={heatmapData}
-          title="Optimal Posting Times - Engagement Heatmap"
+          title="Optimal Posting Times - Indian Audience Engagement Heatmap"
         />
       </div>
 
-      {/* Campaign Performance Table */}
+      {/* Campaign Performance Table - Indian Brand Campaigns */}
       <Card id="campaigns-section">
         <CardHeader>
-          <CardTitle className="text-xl font-semibold text-primary-800">Campaign Performance</CardTitle>
+          <CardTitle className="text-xl font-semibold text-primary-800">Indian Brand Campaign Performance</CardTitle>
         </CardHeader>
         <CardContent>
           <EnhancedTable
