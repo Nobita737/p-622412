@@ -74,7 +74,7 @@ export const KpiRibbon: React.FC<KpiRibbonProps> = ({ data, onCardClick, classNa
         sparklineData={[125000, 142000, 138000, 155000, 168000, 172000, 185000, 192000, 188000, 205000, 198000, 215000]}
         onClick={() => onCardClick('emv')}
         tooltip="Earned Media Value: Total value of organic content and engagement generated"
-        formatValue={(value) => `$${(value / 1000).toFixed(0)}K`}
+        formatValue={(value) => `$${Math.round(value / 1000)}K`}
       />
 
       <KpiCard

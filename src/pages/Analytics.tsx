@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { AlertBanner } from '@/components/ui/alert-banner';
@@ -195,7 +194,9 @@ const Analytics = () => {
         </Card>
 
         {/* Conversion Funnel */}
-        <FunnelChart data={funnelData} id="funnel-section" />
+        <div id="funnel-section">
+          <FunnelChart data={funnelData} />
+        </div>
 
         {/* ROI Gauge */}
         <Card id="roi-section">
@@ -270,11 +271,12 @@ const Analytics = () => {
       </div>
 
       {/* Optimal Posting Times Heatmap */}
-      <HeatmapChart
-        data={heatmapData}
-        title="Optimal Posting Times - Engagement Heatmap"
-        id="timing-section"
-      />
+      <div id="timing-section">
+        <HeatmapChart
+          data={heatmapData}
+          title="Optimal Posting Times - Engagement Heatmap"
+        />
+      </div>
 
       {/* Campaign Performance Table */}
       <Card id="campaigns-section">
