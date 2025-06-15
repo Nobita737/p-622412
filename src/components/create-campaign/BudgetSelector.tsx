@@ -59,7 +59,7 @@ const BudgetSelector = () => {
         Campayn is a free platform—you only pay creators. Budget selection determines available packages.
       </div>
 
-      <style jsx>{`
+      <style>{`
         .slider::-webkit-slider-thumb {
           appearance: none;
           height: 20px;
