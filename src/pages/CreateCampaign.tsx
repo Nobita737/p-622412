@@ -11,6 +11,7 @@ import PostOrderOverview from "@/components/create-campaign/PostOrderOverview";
 import GuidelinesAccordion from "@/components/create-campaign/GuidelinesAccordion";
 import RefundPolicy from "@/components/create-campaign/RefundPolicy";
 import OrderSummarySidebar from "@/components/create-campaign/OrderSummarySidebar";
+import { MessageCircle, HelpCircle } from "lucide-react";
 
 const CreateCampaign = () => {
   return (
@@ -18,17 +19,30 @@ const CreateCampaign = () => {
       {/* Header Bar */}
       <header className="flex items-center justify-between px-8 py-6 bg-white border-b rounded-b-2xl shadow-sm">
         <div className="flex items-center space-x-4">
-          <img src="/logo.svg" alt="Amplify logo" className="h-8 w-auto" />
+          <div className="flex items-center space-x-2">
+            <div className="w-8 h-8 bg-teal-500 rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-lg">C</span>
+            </div>
+            <h1 className="text-2xl font-bold text-slate-900">Campayn</h1>
+          </div>
         </div>
         <div className="flex items-center space-x-6">
-          <button className="hover:scale-110 transition-transform"><span className="text-slate-500 text-lg">?</span></button>
-          <button className="hover:scale-110 transition-transform"><span className="text-slate-500 text-lg">💬</span></button>
-          <button className="ml-4 bg-[#7C3AED] text-white px-4 py-2 rounded-full text-base shadow hover:bg-[#6d28d9]">Login</button>
+          <button className="hover:scale-110 transition-transform p-2 hover:bg-slate-100 rounded-full">
+            <HelpCircle className="h-5 w-5 text-slate-500" />
+          </button>
+          <button className="hover:scale-110 transition-transform p-2 hover:bg-slate-100 rounded-full">
+            <MessageCircle className="h-5 w-5 text-slate-500" />
+          </button>
+          <button className="ml-4 bg-[#7C3AED] text-white px-6 py-2 rounded-full text-base shadow hover:bg-[#6d28d9] transition-colors">
+            Login
+          </button>
         </div>
       </header>
+
       {/* Two-Column Grid */}
-      <main className="max-w-7xl mx-auto py-8 grid grid-cols-1 lg:grid-cols-[1.7fr_1fr] gap-10">
-        <section className="space-y-8">
+      <main className="max-w-7xl mx-auto py-8 px-4 grid grid-cols-1 lg:grid-cols-[70%_30%] gap-8">
+        {/* Left Column - Campaign Builder Form */}
+        <section className="space-y-6">
           <BudgetSelector />
           <ContentTabPanel />
           <CategoryCarousel />
@@ -40,11 +54,16 @@ const CreateCampaign = () => {
           <GuidelinesAccordion />
           <RefundPolicy />
         </section>
-        <aside className="hidden lg:block sticky top-24 h-fit">
-          <OrderSummarySidebar />
+
+        {/* Right Column - Sticky Order Summary */}
+        <aside className="hidden lg:block">
+          <div className="sticky top-4">
+            <OrderSummarySidebar />
+          </div>
         </aside>
       </main>
     </div>
   );
 };
+
 export default CreateCampaign;
