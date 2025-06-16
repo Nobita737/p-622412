@@ -1,9 +1,9 @@
+
 import * as React from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Plus, Download, DollarSign, Zap } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { useNavigate } from "react-router-dom";
 
 interface QuickActionsToolbarProps {
   onLaunchCampaign?: () => void;
@@ -14,7 +14,10 @@ interface QuickActionsToolbarProps {
 
 export const QuickActionsToolbar = React.forwardRef<HTMLDivElement, QuickActionsToolbarProps>(
   ({ onLaunchCampaign, onExportReport, onAddFunds, className, ...props }, ref) => {
-    const navigate = useNavigate();
+    const handleLaunchCampaign = () => {
+      window.open('https://preview--zestful-campaign-craft.lovable.app/', '_blank');
+    };
+
     return (
       <div
         ref={ref}
@@ -32,7 +35,7 @@ export const QuickActionsToolbar = React.forwardRef<HTMLDivElement, QuickActions
           
           <Button 
             className="bg-primary-600 hover:bg-primary-700 text-white shadow-md"
-            onClick={() => navigate('/create-campaign')}
+            onClick={handleLaunchCampaign}
           >
             <Plus className="h-4 w-4 mr-2" />
             Launch Campaign
