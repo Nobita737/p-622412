@@ -17,18 +17,18 @@ const CampaynSidebar = () => {
   const location = useLocation();
 
   return (
-    <div className="fixed left-0 top-0 h-full w-64 bg-slate-900 border-r border-slate-700">
+    <div className="fixed left-0 top-0 h-full w-64 bg-white border-r border-slate-200 shadow-sm">
       <div className="flex flex-col h-full">
-        <div className="p-6">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-teal-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">C</span>
+        <div className="p-6 border-b border-slate-100">
+          <div className="flex items-center space-x-3">
+            <div className="w-10 h-10 rounded-xl gradient-bg flex items-center justify-center shadow-md">
+              <span className="text-white font-bold text-xl">C</span>
             </div>
-            <h2 className="text-2xl font-bold text-white">Campayn</h2>
+            <h2 className="text-2xl font-bold text-slate-800">Campayn</h2>
           </div>
         </div>
         
-        <nav className="flex-1 px-4">
+        <nav className="flex-1 px-4 py-6">
           <ul className="space-y-2">
             {menuItems.map((item) => {
               const Icon = item.icon;
@@ -39,14 +39,16 @@ const CampaynSidebar = () => {
                   <Link
                     to={item.path}
                     className={cn(
-                      "flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200",
-                      "hover:bg-slate-800",
+                      "flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 group",
                       isActive 
-                        ? "bg-teal-600 text-white" 
-                        : "text-slate-300 hover:text-white"
+                        ? "bg-primary text-white shadow-md" 
+                        : "text-slate-600 hover:text-primary hover:bg-primary-25"
                     )}
                   >
-                    <Icon className="h-5 w-5" />
+                    <Icon className={cn(
+                      "h-5 w-5 transition-colors",
+                      isActive ? "text-white" : "text-slate-500 group-hover:text-primary"
+                    )} />
                     <span className="font-medium">{item.label}</span>
                   </Link>
                 </li>
@@ -55,14 +57,14 @@ const CampaynSidebar = () => {
           </ul>
         </nav>
 
-        <div className="p-4 mt-auto border-t border-slate-700">
-          <div className="flex items-center gap-3 px-4 py-3">
-            <div className="h-8 w-8 rounded-full bg-teal-500 flex items-center justify-center">
+        <div className="p-4 border-t border-slate-100">
+          <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-slate-50">
+            <div className="h-8 w-8 rounded-full gradient-bg flex items-center justify-center">
               <span className="text-white text-sm font-medium">JD</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-sm font-medium text-white">John Doe</span>
-              <span className="text-xs text-slate-400">Brand Manager</span>
+              <span className="text-sm font-medium text-slate-800">John Doe</span>
+              <span className="text-xs text-slate-500">Brand Manager</span>
             </div>
           </div>
         </div>

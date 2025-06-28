@@ -26,50 +26,50 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#1A3E5C", // Deep blue
+          DEFAULT: "#5B73F5", // Main blue from logo
           foreground: "#ffffff",
-          25: "#f8fafc",
-          50: "#f0f7ff",
-          100: "#e0efff",
-          200: "#b8dcff",
-          300: "#7bb8ff",
-          400: "#3693ff",
-          500: "#0066CC", // Accent blue
-          600: "#0052a3",
-          700: "#004085",
-          800: "#003366",
-          900: "#1A3E5C", // Deep blue
+          25: "#f8faff",
+          50: "#f0f4ff",
+          100: "#e0eaff",
+          200: "#c7d8ff",
+          300: "#a3bfff",
+          400: "#7a9bff",
+          500: "#5B73F5", // Main blue
+          600: "#4c5ee5",
+          700: "#3d49d4",
+          800: "#323bb8",
+          900: "#2a3394",
         },
         secondary: {
-          DEFAULT: "#f8fafc",
-          foreground: "#1A3E5C",
+          DEFAULT: "#f8faff",
+          foreground: "#2a3394",
         },
         muted: {
-          DEFAULT: "#f1f5f9",
-          foreground: "#475569",
+          DEFAULT: "#f1f5fb",
+          foreground: "#64748b",
         },
         accent: {
-          DEFAULT: "#0066CC", // Accent blue
+          DEFAULT: "#5B73F5",
           foreground: "#ffffff",
         },
         card: {
           DEFAULT: "#ffffff",
-          foreground: "#1A3E5C",
+          foreground: "#2a3394",
         },
         destructive: {
-          DEFAULT: "#dc2626",
+          DEFAULT: "#ef4444",
           foreground: "#ffffff",
         },
         popover: {
           DEFAULT: "#ffffff",
-          foreground: "#1A3E5C",
+          foreground: "#2a3394",
         },
         success: {
-          DEFAULT: "#059669",
+          DEFAULT: "#10b981",
           foreground: "#ffffff",
         },
         warning: {
-          DEFAULT: "#d97706",
+          DEFAULT: "#f59e0b",
           foreground: "#ffffff",
         },
         slate: {
@@ -102,8 +102,8 @@ export default {
           "100%": { transform: "scale(1)", opacity: "1" },
         },
         "pulse-blue": {
-          "0%, 100%": { backgroundColor: "#0066CC" },
-          "50%": { backgroundColor: "#3693ff" },
+          "0%, 100%": { backgroundColor: "#5B73F5" },
+          "50%": { backgroundColor: "#7a9bff" },
         },
       },
       animation: {
@@ -114,9 +114,9 @@ export default {
         "pulse-blue": "pulse-blue 2s infinite",
       },
       boxShadow: {
-        'card': '0 4px 6px -1px rgba(26, 62, 92, 0.1), 0 2px 4px -1px rgba(26, 62, 92, 0.06)',
-        'card-hover': '0 10px 15px -3px rgba(26, 62, 92, 0.1), 0 4px 6px -2px rgba(26, 62, 92, 0.05)',
-        'elevation': '0 20px 25px -5px rgba(26, 62, 92, 0.1), 0 10px 10px -5px rgba(26, 62, 92, 0.04)',
+        'card': '0 4px 6px -1px rgba(91, 115, 245, 0.1), 0 2px 4px -1px rgba(91, 115, 245, 0.06)',
+        'card-hover': '0 10px 15px -3px rgba(91, 115, 245, 0.1), 0 4px 6px -2px rgba(91, 115, 245, 0.05)',
+        'elevation': '0 20px 25px -5px rgba(91, 115, 245, 0.1), 0 10px 10px -5px rgba(91, 115, 245, 0.04)',
       },
     },
   },

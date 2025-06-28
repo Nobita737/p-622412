@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -23,7 +24,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <div className="flex min-h-screen bg-slate-50">
+        <div className="flex min-h-screen bg-slate-25">
           <CampaynSidebar />
           <div className="flex-1 ml-64">
             <TopNavigation />
