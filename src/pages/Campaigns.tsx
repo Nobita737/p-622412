@@ -1,3 +1,4 @@
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -83,7 +84,7 @@ const getStatusBadge = (status: string) => {
 };
 
 const CampaignRow = ({ campaign }: { campaign: typeof campaignsData[0] }) => (
-  <TableRow className="hover:bg-slate-50 group">
+  <TableRow className="hover:bg-primary-25 group">
     <TableCell className="font-medium">
       <div className="flex items-center space-x-3">
         <div>
@@ -124,7 +125,7 @@ const CampaignRow = ({ campaign }: { campaign: typeof campaignsData[0] }) => (
         </div>
         <Progress 
           value={campaign.budgetUsed} 
-          className={`w-20 h-2 ${campaign.budgetUsed > 90 ? 'bg-red-100' : 'bg-slate-100'}`}
+          className={`w-20 h-2 ${campaign.budgetUsed > 90 ? 'bg-red-100' : 'bg-primary-50'}`}
         />
       </div>
     </TableCell>
@@ -137,7 +138,7 @@ const CampaignRow = ({ campaign }: { campaign: typeof campaignsData[0] }) => (
     <TableCell>
       <div className="flex items-center space-x-2">
         <span className="font-medium">{campaign.engagementRate}</span>
-        <Badge variant="outline" className="text-xs bg-green-50 text-green-700">
+        <Badge variant="outline" className="text-xs bg-primary-50 text-primary-700 border-primary-200">
           ROI: {campaign.roi}
         </Badge>
       </div>
@@ -147,7 +148,7 @@ const CampaignRow = ({ campaign }: { campaign: typeof campaignsData[0] }) => (
       <div className="flex items-center space-x-1 opacity-0 group-hover:opacity-100 transition-opacity">
         <Tooltip>
           <TooltipTrigger asChild>
-            <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
+            <Button variant="ghost" size="sm" className="h-8 w-8 p-0 hover:bg-primary-25">
               <Eye className="h-4 w-4" />
             </Button>
           </TooltipTrigger>
@@ -156,7 +157,7 @@ const CampaignRow = ({ campaign }: { campaign: typeof campaignsData[0] }) => (
         
         <Tooltip>
           <TooltipTrigger asChild>
-            <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
+            <Button variant="ghost" size="sm" className="h-8 w-8 p-0 hover:bg-primary-25">
               <Edit className="h-4 w-4" />
             </Button>
           </TooltipTrigger>
@@ -165,7 +166,7 @@ const CampaignRow = ({ campaign }: { campaign: typeof campaignsData[0] }) => (
         
         <Tooltip>
           <TooltipTrigger asChild>
-            <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
+            <Button variant="ghost" size="sm" className="h-8 w-8 p-0 hover:bg-primary-25">
               {campaign.status === "Live" ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
             </Button>
           </TooltipTrigger>
@@ -176,14 +177,14 @@ const CampaignRow = ({ campaign }: { campaign: typeof campaignsData[0] }) => (
         
         <Tooltip>
           <TooltipTrigger asChild>
-            <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
+            <Button variant="ghost" size="sm" className="h-8 w-8 p-0 hover:bg-primary-25">
               <Copy className="h-4 w-4" />
             </Button>
           </TooltipTrigger>
           <TooltipContent><p>Duplicate campaign</p></TooltipContent>
         </Tooltip>
         
-        <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
+        <Button variant="ghost" size="sm" className="h-8 w-8 p-0 hover:bg-primary-25">
           <MoreHorizontal className="h-4 w-4" />
         </Button>
       </div>
@@ -213,15 +214,15 @@ const Campaigns = () => {
             <p className="text-slate-600 mt-1">Manage and monitor all your influencer campaigns</p>
           </div>
           <div className="flex items-center space-x-3">
-            <Badge variant="outline" className="bg-green-50 text-green-700 border-green-200">
+            <Badge variant="outline" className="bg-primary-50 text-primary-700 border-primary-200">
               <Zap className="h-3 w-3 mr-1" />
               4 Active
             </Badge>
-            <Button variant="outline" size="sm">
+            <Button variant="outline" size="sm" className="hover:bg-primary-25">
               <Filter className="h-4 w-4 mr-2" />
               Filters
             </Button>
-            <Button className="bg-teal-600 hover:bg-teal-700"
+            <Button className="bg-primary hover:bg-primary-600 shadow-card"
               onClick={() => navigate('/create-campaign')}
             >
               <Plus className="h-4 w-4 mr-2" />
@@ -231,7 +232,7 @@ const Campaigns = () => {
         </div>
 
         {/* Search and Filters */}
-        <Card>
+        <Card className="clean-card">
           <CardContent className="p-4">
             <div className="flex flex-col sm:flex-row gap-4">
               <div className="flex-1 relative">
@@ -239,17 +240,17 @@ const Campaigns = () => {
                 <input
                   type="text"
                   placeholder="Search campaigns..."
-                  className="w-full pl-10 pr-4 py-2 border border-slate-200 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+                  className="w-full pl-10 pr-4 py-2 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary"
                 />
               </div>
               <div className="flex space-x-2">
-                <select className="px-3 py-2 border border-slate-200 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500">
+                <select className="px-3 py-2 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary">
                   <option>All Status</option>
                   <option>Live</option>
                   <option>Paused</option>
                   <option>Completed</option>
                 </select>
-                <select className="px-3 py-2 border border-slate-200 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500">
+                <select className="px-3 py-2 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary">
                   <option>All Categories</option>
                   <option>Fashion</option>
                   <option>Tech</option>
@@ -262,41 +263,41 @@ const Campaigns = () => {
 
         {/* Summary Cards */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-          <Card className="hover:shadow-lg transition-shadow">
+          <Card className="clean-card hover-scale">
             <CardContent className="p-4">
               <div className="text-2xl font-bold text-slate-900">12</div>
               <p className="text-sm text-slate-600">Active Campaigns</p>
-              <Badge variant="secondary" className="mt-1 text-xs bg-green-50 text-green-700">
+              <Badge variant="secondary" className="mt-1 text-xs bg-primary-50 text-primary-700">
                 +3 this month
               </Badge>
             </CardContent>
           </Card>
           
-          <Card className="hover:shadow-lg transition-shadow">
+          <Card className="clean-card hover-scale">
             <CardContent className="p-4">
               <div className="text-2xl font-bold text-slate-900">$142K</div>
               <p className="text-sm text-slate-600">Total Spend</p>
-              <Badge variant="secondary" className="mt-1 text-xs bg-blue-50 text-blue-700">
+              <Badge variant="secondary" className="mt-1 text-xs bg-primary-50 text-primary-700">
                 68% of budget
               </Badge>
             </CardContent>
           </Card>
           
-          <Card className="hover:shadow-lg transition-shadow">
+          <Card className="clean-card hover-scale">
             <CardContent className="p-4">
               <div className="text-2xl font-bold text-slate-900">8.4M</div>
               <p className="text-sm text-slate-600">Total Reach</p>
-              <Badge variant="secondary" className="mt-1 text-xs bg-purple-50 text-purple-700">
+              <Badge variant="secondary" className="mt-1 text-xs bg-primary-50 text-primary-700">
                 +1.2M this week
               </Badge>
             </CardContent>
           </Card>
           
-          <Card className="hover:shadow-lg transition-shadow">
+          <Card className="clean-card hover-scale">
             <CardContent className="p-4">
               <div className="text-2xl font-bold text-slate-900">4.8%</div>
               <p className="text-sm text-slate-600">Avg Engagement</p>
-              <Badge variant="secondary" className="mt-1 text-xs bg-green-50 text-green-700">
+              <Badge variant="secondary" className="mt-1 text-xs bg-primary-50 text-primary-700">
                 +0.3% vs last month
               </Badge>
             </CardContent>
@@ -304,15 +305,15 @@ const Campaigns = () => {
         </div>
 
         {/* Enhanced Campaigns Table */}
-        <Card className="hover:shadow-lg transition-shadow">
+        <Card className="clean-card">
           <CardHeader>
             <div className="flex items-center justify-between">
               <CardTitle>All Campaigns</CardTitle>
               <div className="flex items-center space-x-2">
-                <Button variant="outline" size="sm">
+                <Button variant="outline" size="sm" className="hover:bg-primary-25">
                   Export
                 </Button>
-                <Button variant="outline" size="sm">
+                <Button variant="outline" size="sm" className="hover:bg-primary-25">
                   Bulk Actions
                 </Button>
               </div>
@@ -321,15 +322,15 @@ const Campaigns = () => {
           <CardContent className="p-0">
             <div className="overflow-x-auto">
               <Table>
-                <TableHeader className="sticky top-0 bg-slate-50">
+                <TableHeader className="sticky top-0 bg-primary-25">
                   <TableRow>
-                    <TableHead className="font-semibold">Campaign Name</TableHead>
-                    <TableHead className="font-semibold">Status</TableHead>
-                    <TableHead className="font-semibold">Duration</TableHead>
-                    <TableHead className="font-semibold">Budget Used</TableHead>
-                    <TableHead className="font-semibold">Total Reach</TableHead>
-                    <TableHead className="font-semibold">Performance</TableHead>
-                    <TableHead className="font-semibold">Actions</TableHead>
+                    <TableHead className="font-semibold text-slate-700">Campaign Name</TableHead>
+                    <TableHead className="font-semibold text-slate-700">Status</TableHead>
+                    <TableHead className="font-semibold text-slate-700">Duration</TableHead>
+                    <TableHead className="font-semibold text-slate-700">Budget Used</TableHead>
+                    <TableHead className="font-semibold text-slate-700">Total Reach</TableHead>
+                    <TableHead className="font-semibold text-slate-700">Performance</TableHead>
+                    <TableHead className="font-semibold text-slate-700">Actions</TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody>
@@ -345,7 +346,7 @@ const Campaigns = () => {
         {/* Mobile Card View (Hidden on Desktop) */}
         <div className="lg:hidden space-y-4">
           {campaignsData.map((campaign) => (
-            <Card key={campaign.id} className="hover:shadow-lg transition-shadow">
+            <Card key={campaign.id} className="clean-card">
               <CardContent className="p-4">
                 <div className="flex items-start justify-between mb-3">
                   <div>
@@ -364,20 +365,20 @@ const Campaigns = () => {
                   <div>
                     <div className="text-sm text-slate-600">Engagement</div>
                     <div className="font-medium">{campaign.engagementRate}</div>
-                    <div className="text-xs text-green-600">ROI: {campaign.roi}</div>
+                    <div className="text-xs text-primary-600">ROI: {campaign.roi}</div>
                   </div>
                 </div>
                 
                 <div className="flex space-x-2">
-                  <Button variant="outline" size="sm" className="flex-1">
+                  <Button variant="outline" size="sm" className="flex-1 hover:bg-primary-25">
                     <Eye className="h-4 w-4 mr-1" />
                     View
                   </Button>
-                  <Button variant="outline" size="sm" className="flex-1">
+                  <Button variant="outline" size="sm" className="flex-1 hover:bg-primary-25">
                     <Edit className="h-4 w-4 mr-1" />
                     Edit
                   </Button>
-                  <Button variant="outline" size="sm">
+                  <Button variant="outline" size="sm" className="hover:bg-primary-25">
                     {campaign.status === "Live" ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
                   </Button>
                 </div>
