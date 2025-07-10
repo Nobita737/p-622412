@@ -1,12 +1,14 @@
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import SearchFilterBar from "@/components/explore-creators/SearchFilterBar";
 import CreatorCard from "@/components/explore-creators/CreatorCard";
 import CreatorModal from "@/components/explore-creators/CreatorModal";
-import { Compass, Users, Star, TrendingUp } from "lucide-react";
+import { Compass, Users, Star, TrendingUp, Loader } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
+import { useToast } from "@/hooks/use-toast";
 
 // Mock data for creators
 const mockCreators = [
@@ -95,6 +97,8 @@ const ExploreCreators = () => {
   const [selectedCreator, setSelectedCreator] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [sortBy, setSortBy] = useState("followers-desc");
+  const [creators, setCreators] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [filters, setFilters] = useState({
     niche: [],
     followerRange: "",
@@ -103,6 +107,73 @@ const ExploreCreators = () => {
     platform: [],
     location: ""
   });
+  const { toast } = useToast();
+
+  // Fetch creators from Supabase Edge Function
+  const fetchCreators = async () => {
+    setLoading(true);
+    try {
+      const searchParams = new URLSearchParams({
+        search: searchTerm,
+        category: filters.niche[0] || '',
+        followerRange: filters.followerRange,
+        location: filters.location,
+        sortBy: sortBy,
+        limit: '50'
+      });
+
+      const { data, error } = await supabase.functions.invoke('fetch-creators', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        }
+      });
+
+      if (error) throw error;
+
+      setCreators(data.creators || []);
+    } catch (error) {
+      console.error('Error fetching creators:', error);
+      toast({
+        title: "Error",
+        description: "Failed to fetch creators. Using sample data.",
+        variant: "destructive",
+      });
+      // Fallback to mock data
+      setCreators(mockCreators);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Import sample data on first load
+  const importSampleData = async () => {
+    try {
+      const { data, error } = await supabase.functions.invoke('import-creators', {
+        method: 'POST'
+      });
+      
+      if (error) throw error;
+      
+      console.log('Sample data imported:', data);
+    } catch (error) {
+      console.error('Error importing sample data:', error);
+    }
+  };
+
+  useEffect(() => {
+    importSampleData().then(() => {
+      fetchCreators();
+    });
+  }, []);
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      fetchCreators();
+    }, 500); // Debounce search/filter changes
+
+    return () => clearTimeout(timeoutId);
+  }, [searchTerm, filters, sortBy]);
 
   const handleFilterChange = (filterType: string, value: string | string[]) => {
     setFilters(prev => ({
@@ -128,54 +199,21 @@ const ExploreCreators = () => {
     setIsModalOpen(true);
   };
 
-  const filteredAndSortedCreators = useMemo(() => {
-    let filtered = mockCreators.filter(creator => {
-      // Search filter
-      const matchesSearch = searchTerm === "" || 
-        creator.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        creator.handle.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        creator.niche.some(n => n.toLowerCase().includes(searchTerm.toLowerCase()));
-
-      // Niche filter
-      const matchesNiche = filters.niche.length === 0 || 
-        filters.niche.some(n => creator.niche.includes(n));
-
-      // Rating filter
-      const matchesRating = filters.ratingRange === "All" ||
-        (filters.ratingRange === "4+ Stars" && creator.rating >= 4) ||
-        (filters.ratingRange === "4.5+ Stars" && creator.rating >= 4.5);
-
-      // Platform filter
-      const matchesPlatform = filters.platform.length === 0 ||
-        filters.platform.some(p => creator.platforms.includes(p));
-
-      return matchesSearch && matchesNiche && matchesRating && matchesPlatform;
-    });
-
-    // Sort creators
-    filtered.sort((a, b) => {
-      switch (sortBy) {
-        case "followers-desc":
-          return parseInt(b.followers.replace(/\D/g, '')) - parseInt(a.followers.replace(/\D/g, ''));
-        case "followers-asc":
-          return parseInt(a.followers.replace(/\D/g, '')) - parseInt(b.followers.replace(/\D/g, ''));
-        case "engagement-desc":
-          return parseFloat(b.engagementRate) - parseFloat(a.engagementRate);
-        case "rating-desc":
-          return b.rating - a.rating;
-        case "recent":
-          return a.id - b.id; // Mock: newer IDs = more recent
-        default:
-          return 0;
-      }
-    });
-
-    return filtered;
-  }, [searchTerm, filters, sortBy]);
-
-  const totalCreators = mockCreators.length;
-  const avgRating = (mockCreators.reduce((sum, creator) => sum + creator.rating, 0) / totalCreators).toFixed(1);
-  const topNiches = ["Fashion", "Tech", "Fitness", "Food"];
+  // Use real creators data instead of filtering mock data
+  const displayedCreators = creators;
+  
+  const totalCreators = creators.length;
+  const avgRating = creators.length > 0 
+    ? (creators.reduce((sum, creator) => sum + creator.rating, 0) / totalCreators).toFixed(1)
+    : "4.6";
+  
+  // Extract unique niches from creators data
+  const topNiches = [...new Set(creators.flatMap(creator => creator.niche))].slice(0, 4);
+  
+  // Calculate average engagement from creators data
+  const avgEngagement = creators.length > 0
+    ? (creators.reduce((sum, creator) => sum + parseFloat(creator.engagementRate), 0) / totalCreators).toFixed(1) + "%"
+    : "6.2%";
 
   return (
     <div className="space-y-6">
@@ -189,7 +227,7 @@ const ExploreCreators = () => {
           <p className="text-slate-600 mt-1">Discover and connect with top-performing creators for your campaigns</p>
         </div>
         <Badge variant="outline" className="bg-primary-50 text-primary-700 border-primary-200">
-          {filteredAndSortedCreators.length} of {totalCreators} creators
+          {displayedCreators.length} of {totalCreators} creators
         </Badge>
       </div>
 
@@ -240,7 +278,7 @@ const ExploreCreators = () => {
             <TrendingUp className="h-4 w-4 text-green-500" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold text-green-600">6.2%</div>
+            <div className="text-2xl font-bold text-green-600">{avgEngagement}</div>
             <p className="text-xs text-muted-foreground">Above industry standard</p>
           </CardContent>
         </Card>
@@ -257,19 +295,29 @@ const ExploreCreators = () => {
         onSortChange={setSortBy}
       />
 
+      {/* Loading State */}
+      {loading && (
+        <div className="flex justify-center items-center py-12">
+          <Loader className="h-8 w-8 animate-spin text-primary mr-3" />
+          <p className="text-slate-600">Loading creators...</p>
+        </div>
+      )}
+
       {/* Creator Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        {filteredAndSortedCreators.map((creator) => (
-          <CreatorCard
-            key={creator.id}
-            creator={creator}
-            onViewProfile={handleViewProfile}
-          />
-        ))}
-      </div>
+      {!loading && (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          {displayedCreators.map((creator) => (
+            <CreatorCard
+              key={creator.id}
+              creator={creator}
+              onViewProfile={handleViewProfile}
+            />
+          ))}
+        </div>
+      )}
 
       {/* No Results */}
-      {filteredAndSortedCreators.length === 0 && (
+      {!loading && displayedCreators.length === 0 && (
         <div className="text-center py-12">
           <div className="text-6xl mb-4">🔍</div>
           <h3 className="text-xl font-semibold text-slate-700 mb-2">No creators found</h3>

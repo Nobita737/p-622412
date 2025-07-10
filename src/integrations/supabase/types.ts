@@ -113,6 +113,66 @@ export type Database = {
         }
         Relationships: []
       }
+      creators: {
+        Row: {
+          audience_growth_rate: number | null
+          brand_collaborations_score: number | null
+          category: string | null
+          consistency_score: number | null
+          created_at: string
+          data_source: string
+          engagement_rate: number | null
+          external_id: string
+          feedback_score: number | null
+          id: string
+          ig_followers: number | null
+          ig_handle: string | null
+          legitimacy_score: number | null
+          location: string | null
+          name: string
+          subcategory: string | null
+          updated_at: string
+        }
+        Insert: {
+          audience_growth_rate?: number | null
+          brand_collaborations_score?: number | null
+          category?: string | null
+          consistency_score?: number | null
+          created_at?: string
+          data_source: string
+          engagement_rate?: number | null
+          external_id: string
+          feedback_score?: number | null
+          id?: string
+          ig_followers?: number | null
+          ig_handle?: string | null
+          legitimacy_score?: number | null
+          location?: string | null
+          name: string
+          subcategory?: string | null
+          updated_at?: string
+        }
+        Update: {
+          audience_growth_rate?: number | null
+          brand_collaborations_score?: number | null
+          category?: string | null
+          consistency_score?: number | null
+          created_at?: string
+          data_source?: string
+          engagement_rate?: number | null
+          external_id?: string
+          feedback_score?: number | null
+          id?: string
+          ig_followers?: number | null
+          ig_handle?: string | null
+          legitimacy_score?: number | null
+          location?: string | null
+          name?: string
+          subcategory?: string | null
+          updated_at?: string
+        }
+        Relationships: []
+      }
       engagement_heatmap: {
         Row: {
           created_at: string
