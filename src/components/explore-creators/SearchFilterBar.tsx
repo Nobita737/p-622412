@@ -64,14 +64,14 @@ const SearchFilterBar = ({
       {/* Filters Row */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
         <Select
-          value={filters.niche[0] || ""}
-          onValueChange={(value) => onFilterChange("niche", value ? [value] : [])}
+          value={filters.niche[0] || "all-niches"}
+          onValueChange={(value) => onFilterChange("niche", value === "all-niches" ? [] : [value])}
         >
           <SelectTrigger>
             <SelectValue placeholder="Niche" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="">All Niches</SelectItem>
+            <SelectItem value="all-niches">All Niches</SelectItem>
             {nicheOptions.map((niche) => (
               <SelectItem key={niche} value={niche}>{niche}</SelectItem>
             ))}
@@ -79,14 +79,14 @@ const SearchFilterBar = ({
         </Select>
 
         <Select
-          value={filters.followerRange}
-          onValueChange={(value) => onFilterChange("followerRange", value)}
+          value={filters.followerRange || "all-followers"}
+          onValueChange={(value) => onFilterChange("followerRange", value === "all-followers" ? "" : value)}
         >
           <SelectTrigger>
             <SelectValue placeholder="Followers" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="">All Ranges</SelectItem>
+            <SelectItem value="all-followers">All Ranges</SelectItem>
             {followerRanges.map((range) => (
               <SelectItem key={range} value={range}>{range}</SelectItem>
             ))}
@@ -94,14 +94,14 @@ const SearchFilterBar = ({
         </Select>
 
         <Select
-          value={filters.engagementRange}
-          onValueChange={(value) => onFilterChange("engagementRange", value)}
+          value={filters.engagementRange || "all-engagement"}
+          onValueChange={(value) => onFilterChange("engagementRange", value === "all-engagement" ? "" : value)}
         >
           <SelectTrigger>
             <SelectValue placeholder="Engagement" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="">All Rates</SelectItem>
+            <SelectItem value="all-engagement">All Rates</SelectItem>
             {engagementRanges.map((range) => (
               <SelectItem key={range} value={range}>{range}</SelectItem>
             ))}
@@ -123,14 +123,14 @@ const SearchFilterBar = ({
         </Select>
 
         <Select
-          value={filters.platform[0] || ""}
-          onValueChange={(value) => onFilterChange("platform", value ? [value] : [])}
+          value={filters.platform[0] || "all-platforms"}
+          onValueChange={(value) => onFilterChange("platform", value === "all-platforms" ? [] : [value])}
         >
           <SelectTrigger>
             <SelectValue placeholder="Platform" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="">All Platforms</SelectItem>
+            <SelectItem value="all-platforms">All Platforms</SelectItem>
             {platformOptions.map((platform) => (
               <SelectItem key={platform} value={platform}>{platform}</SelectItem>
             ))}
