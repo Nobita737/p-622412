@@ -1,5 +1,5 @@
 
-import { Home, Users, BarChart3, DollarSign, FileText, HelpCircle, Target } from "lucide-react";
+import { Home, Users, BarChart3, DollarSign, FileText, HelpCircle, Target, Compass } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Link, useLocation } from "react-router-dom";
 
@@ -7,6 +7,7 @@ const menuItems = [
   { icon: Home, label: "Dashboard", path: "/" },
   { icon: Target, label: "Campaigns", path: "/campaigns" },
   { icon: Users, label: "Creators", path: "/creators" },
+  { icon: Compass, label: "Explore Creators", path: "/explore-creators" },
   { icon: BarChart3, label: "Analytics", path: "/analytics" },
   { icon: DollarSign, label: "Budget & Payments", path: "/budget" },
   { icon: FileText, label: "Reports & Exports", path: "/reports" },

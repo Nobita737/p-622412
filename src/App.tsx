@@ -9,6 +9,7 @@ import TopNavigation from "@/components/TopNavigation";
 import Dashboard from "./pages/Dashboard";
 import Campaigns from "./pages/Campaigns";
 import Creators from "./pages/Creators";
+import ExploreCreators from "./pages/ExploreCreators";
 import Analytics from "./pages/Analytics";
 import Budget from "./pages/Budget";
 import Reports from "./pages/Reports";
@@ -34,6 +35,7 @@ const App = () => (
                   <Route path="/" element={<Dashboard />} />
                   <Route path="/campaigns" element={<Campaigns />} />
                   <Route path="/creators" element={<Creators />} />
+                  <Route path="/explore-creators" element={<ExploreCreators />} />
                   <Route path="/analytics" element={<Analytics />} />
                   <Route path="/budget" element={<Budget />} />
                   <Route path="/reports" element={<Reports />} />
