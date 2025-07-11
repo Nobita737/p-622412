@@ -7,7 +7,7 @@ import { Star, Instagram, Youtube, Eye } from "lucide-react";
 
 interface CreatorCardProps {
   creator: {
-    id: number;
+    id: string | number;
     name: string;
     handle: string;
     avatar: string;
@@ -18,6 +18,7 @@ interface CreatorCardProps {
     platforms: string[];
     bio: string;
     location: string;
+    legitimacyScore?: number;
   };
   onViewProfile: (creator: any) => void;
 }
@@ -92,14 +93,20 @@ const CreatorCard = ({ creator, onViewProfile }: CreatorCardProps) => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 gap-4">
-            <div className="bg-blue-50 rounded-lg p-3 text-center">
-              <div className="text-lg font-bold text-blue-900">{creator.followers}</div>
+          <div className="grid grid-cols-3 gap-3">
+            <div className="bg-blue-50 rounded-lg p-2 text-center">
+              <div className="text-sm font-bold text-blue-900">{creator.followers}</div>
               <div className="text-xs text-blue-600">Followers</div>
             </div>
-            <div className="bg-green-50 rounded-lg p-3 text-center">
-              <div className="text-lg font-bold text-green-900">{creator.engagementRate}</div>
+            <div className="bg-green-50 rounded-lg p-2 text-center">
+              <div className="text-sm font-bold text-green-900">{creator.engagementRate}</div>
               <div className="text-xs text-green-600">Engagement</div>
+            </div>
+            <div className="bg-purple-50 rounded-lg p-2 text-center">
+              <div className="text-sm font-bold text-purple-900">
+                {creator.legitimacyScore ? creator.legitimacyScore.toFixed(1) : 'N/A'}
+              </div>
+              <div className="text-xs text-purple-600">Legitimacy</div>
             </div>
           </div>
 

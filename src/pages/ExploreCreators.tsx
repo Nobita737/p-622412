@@ -119,18 +119,22 @@ const ExploreCreators = () => {
         followerRange: filters.followerRange,
         location: filters.location,
         sortBy: sortBy,
-        limit: '50'
+        limit: '500'
       });
 
       const { data, error } = await supabase.functions.invoke('fetch-creators', {
         method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
+        body: {
+          search: searchTerm,
+          category: filters.niche[0] || '',
+          followerRange: filters.followerRange,
+          location: filters.location,
+          sortBy: sortBy,
+          limit: '500'
         }
       });
 
       if (error) throw error;
-
       setCreators(data.creators || []);
     } catch (error) {
       console.error('Error fetching creators:', error);
