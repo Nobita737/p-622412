@@ -1,1 +1,4490 @@
-[]
+[
+  {
+    "id": "32477",
+    "name": "Sarcasm",
+    "ig_followers": 11003768,
+    "ig_handle": "sarcastic_us",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32262",
+    "name": "Trolls Official",
+    "ig_followers": 10967614,
+    "ig_handle": "trolls_official",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "31864",
+    "name": "Memes And Movies Account",
+    "ig_followers": 9540755,
+    "ig_handle": "netflixnmovies",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "16062",
+    "name": "Ghantaa",
+    "ig_followers": 8893120,
+    "ig_handle": "ghantaa",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32478",
+    "name": "The Adult Society",
+    "ig_followers": 7465018,
+    "ig_handle": "adultsociety",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32479",
+    "name": "Log Kya Sochenge",
+    "ig_followers": 5769401,
+    "ig_handle": "log.kya.sochenge",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32255",
+    "name": "Laughter Colours",
+    "ig_followers": 4439222,
+    "ig_handle": "laughtercolours",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48490",
+    "name": "Motivational Thoughts",
+    "ig_followers": 4327409,
+    "ig_handle": "motivation_line_",
+    "category": "News, Media & Magazines",
+    "subcategory": "Feel-Good News / Stories"
+  },
+  {
+    "id": "32481",
+    "name": "Yahi Milenge Saare Content",
+    "ig_followers": 3993819,
+    "ig_handle": "aawww_cute",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32261",
+    "name": "Archit Madaan",
+    "ig_followers": 3761400,
+    "ig_handle": "theindiansarcasm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48440",
+    "name": "Error 69",
+    "ig_followers": 3425550,
+    "ig_handle": "error69",
+    "category": "News, Media & Magazines",
+    "subcategory": "Lifestyle & Culture"
+  },
+  {
+    "id": "32483",
+    "name": "Dekhbhai",
+    "ig_followers": 3291713,
+    "ig_handle": "dekhbhai",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32486",
+    "name": "Epic Media",
+    "ig_followers": 3210181,
+    "ig_handle": "_epic69",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32484",
+    "name": "𝐓𝐡𝐞 𝐉𝐮𝐬𝐭 𝐁𝐞𝐧𝐜𝐡𝐞𝐫𝐬",
+    "ig_followers": 3002907,
+    "ig_handle": "thejustbenchers",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32517",
+    "name": "Flirting Lines",
+    "ig_followers": 2879047,
+    "ig_handle": "flirting.lines",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32257",
+    "name": "Fuddu Sperm️",
+    "ig_followers": 2787757,
+    "ig_handle": "fuddu_sperm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32488",
+    "name": "Be Harami",
+    "ig_followers": 2701590,
+    "ig_handle": "be_harami",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32485",
+    "name": "Troll Fuckers",
+    "ig_followers": 2687258,
+    "ig_handle": "trollfuckers",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "8973",
+    "name": "Filmygags Memes",
+    "ig_followers": 2645276,
+    "ig_handle": "filmygags",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32487",
+    "name": "Logkyakahenge",
+    "ig_followers": 2610653,
+    "ig_handle": "log.kya.kahenge",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32500",
+    "name": "Love School Memes",
+    "ig_followers": 2460699,
+    "ig_handle": "_love_school_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48437",
+    "name": "Filmy Trollz",
+    "ig_followers": 2410269,
+    "ig_handle": "filmytrollz",
+    "category": "News, Media & Magazines",
+    "subcategory": "Lifestyle & Culture"
+  },
+  {
+    "id": "32338",
+    "name": "Epic Postu",
+    "ig_followers": 2401445,
+    "ig_handle": "epicpostu",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32495",
+    "name": "Girlzfactsofficial -facts | Pranjal Hemnani",
+    "ig_followers": 2330970,
+    "ig_handle": "girlzfactsofficial",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32256",
+    "name": "Adultfamily Official",
+    "ig_followers": 2318458,
+    "ig_handle": "adultfamily",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32493",
+    "name": "Chutiyapa",
+    "ig_followers": 2268582,
+    "ig_handle": "chutiyapa_overdose",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32494",
+    "name": "Just Lol Things",
+    "ig_followers": 2202146,
+    "ig_handle": "just.lol.things",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32499",
+    "name": "School Days | Azeem Ahmed",
+    "ig_followers": 2137165,
+    "ig_handle": "school.days__",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48486",
+    "name": "Sakht Logg",
+    "ig_followers": 2122770,
+    "ig_handle": "sakhtlogg",
+    "category": "",
+    "subcategory": ""
+  },
+  {
+    "id": "32502",
+    "name": "High Bro Memes - Chirag Bothra",
+    "ig_followers": 2042959,
+    "ig_handle": "high.br0",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32498",
+    "name": "School Wala Payar",
+    "ig_followers": 1994742,
+    "ig_handle": "schoolwalapayar",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32341",
+    "name": "Mokka Postu",
+    "ig_followers": 1943319,
+    "ig_handle": "mokkapostu",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "38825",
+    "name": "Ursula Rocha",
+    "ig_followers": 1804524,
+    "ig_handle": "tababadeira",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32311",
+    "name": "Life Of Student",
+    "ig_followers": 1802789,
+    "ig_handle": "_life.of.student_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32497",
+    "name": "Memes",
+    "ig_followers": 1768490,
+    "ig_handle": "theadultchats",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32501",
+    "name": "Trolls/memes/comedy",
+    "ig_followers": 1754872,
+    "ig_handle": "thetrolls.in",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32503",
+    "name": "𝙎𝙘𝙝𝙤𝙤𝙡 𝙁𝙚𝙫𝙚𝙧",
+    "ig_followers": 1717906,
+    "ig_handle": "theschoolfever",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32504",
+    "name": "Daily_over_dose",
+    "ig_followers": 1716152,
+    "ig_handle": "daily_over_dose",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32258",
+    "name": "Memes",
+    "ig_followers": 1707157,
+    "ig_handle": "thehumourcentre",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32505",
+    "name": "Ashleel Gyaan",
+    "ig_followers": 1700770,
+    "ig_handle": "ashleelgyaaan_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32347",
+    "name": "Tamil Memes Chennai",
+    "ig_followers": 787144,
+    "ig_handle": "chennai_seigai",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48477",
+    "name": "Sexy Sansar",
+    "ig_followers": 786909,
+    "ig_handle": "sexysansar_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48453",
+    "name": "Humorgagz",
+    "ig_followers": 785282,
+    "ig_handle": "humorgagz",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48459",
+    "name": "Ghantagram_memes",
+    "ig_followers": 785003,
+    "ig_handle": "ghantagram_memes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32562",
+    "name": "Trollscharger",
+    "ig_followers": 774788,
+    "ig_handle": "trollcharger",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32730",
+    "name": "Miss Sarcastic",
+    "ig_followers": 774294,
+    "ig_handle": "miss_saarcastic",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32556",
+    "name": "Super Trolls",
+    "ig_followers": 754457,
+    "ig_handle": "supertrolls.in",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32580",
+    "name": "𝙘𝙧𝙖𝙯𝙮 𝙗𝙖𝙠𝙘𝙝𝙤𝙙𝙞",
+    "ig_followers": 742800,
+    "ig_handle": "crazybakchodi",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32569",
+    "name": "Viral Tales",
+    "ig_followers": 735768,
+    "ig_handle": "virals.tales",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48511",
+    "name": "Motivation Milestone",
+    "ig_followers": 730146,
+    "ig_handle": "motivation.milestone",
+    "category": "News, Media & Magazines",
+    "subcategory": "Feel-Good News / Stories"
+  },
+  {
+    "id": "32831",
+    "name": "Unique Memes",
+    "ig_followers": 706677,
+    "ig_handle": "ashleel.ladkii",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48512",
+    "name": "𝐔𝐏𝐒𝐂 𝐈𝐀𝐒 𝐈𝐏𝐒 𝐏𝐎𝐋𝐈𝐂𝐄 𝐎𝐅𝐅𝐈𝐂𝐄𝐑 𝐆𝐤",
+    "ig_followers": 705408,
+    "ig_handle": "motivationtalks.in",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48513",
+    "name": "Shayari | Poetry | Motivation | Life",
+    "ig_followers": 705335,
+    "ig_handle": "motivation_melega",
+    "category": "News, Media & Magazines",
+    "subcategory": "Feel-Good News / Stories"
+  },
+  {
+    "id": "32601",
+    "name": "Schooldays | Abhay Kumar",
+    "ig_followers": 700725,
+    "ig_handle": "schoooldays",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32567",
+    "name": "High Trolls",
+    "ig_followers": 695887,
+    "ig_handle": "hightrolls",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32557",
+    "name": "The School Trolls",
+    "ig_followers": 689407,
+    "ig_handle": "theschooltrolls",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32316",
+    "name": "Istudentfacts",
+    "ig_followers": 681616,
+    "ig_handle": "istudentsfacts",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48449",
+    "name": "Naughty Family",
+    "ig_followers": 675904,
+    "ig_handle": "_naughtyfamily",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48457",
+    "name": "Johnnylaalᵀᴹ Shubham",
+    "ig_followers": 674453,
+    "ig_handle": "johnnylaal",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32573",
+    "name": "Indian Society",
+    "ig_followers": 674232,
+    "ig_handle": "indian_society",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32727",
+    "name": "𝗩𝗜𝗥𝗔𝗟 𝗖𝗔𝗦𝗠𝗠",
+    "ig_followers": 981199,
+    "ig_handle": "viralcasmm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32539",
+    "name": "The Laugh Culture",
+    "ig_followers": 980035,
+    "ig_handle": "thelaughculture",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32306",
+    "name": "Single Stud",
+    "ig_followers": 964476,
+    "ig_handle": "single.stud",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32552",
+    "name": "Kaafi Sarcastic",
+    "ig_followers": 959972,
+    "ig_handle": "sarcastiic.hoon",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32611",
+    "name": "Chilicasm",
+    "ig_followers": 949510,
+    "ig_handle": "chillcasm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32668",
+    "name": "Paapi Billu",
+    "ig_followers": 919708,
+    "ig_handle": "paapibillu",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32536",
+    "name": "Roflbc 1m",
+    "ig_followers": 917054,
+    "ig_handle": "roflbc",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32610",
+    "name": "𝗧𝘄𝗼 𝘀𝗶𝗱𝗲 𝗺𝗲𝗺𝗲𝗿",
+    "ig_followers": 914367,
+    "ig_handle": "twosidememerss",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32598",
+    "name": "Couplebites",
+    "ig_followers": 910129,
+    "ig_handle": "_coupplebites",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32548",
+    "name": "Love Quotes",
+    "ig_followers": 900638,
+    "ig_handle": "thecouplespoint",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32547",
+    "name": "Papiduniyaa 1m",
+    "ig_followers": 880429,
+    "ig_handle": "papiduniyaa",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32540",
+    "name": "Meme | Trolls | Friendship",
+    "ig_followers": 878889,
+    "ig_handle": "sarcastic.troll",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32568",
+    "name": "Trollgramofficial",
+    "ig_followers": 843909,
+    "ig_handle": "trollgramofficial",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32546",
+    "name": "Chutiya.spotted",
+    "ig_followers": 839132,
+    "ig_handle": "chutiya.spotted",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32308",
+    "name": "The Tharki Society",
+    "ig_followers": 831502,
+    "ig_handle": "thetharkisociety",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32551",
+    "name": "𝙈𝙀𝙈𝙀",
+    "ig_followers": 827868,
+    "ig_handle": "theadulttroll",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "15927",
+    "name": "Epicflirtyworld",
+    "ig_followers": 821055,
+    "ig_handle": "epicflirtyworld",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32724",
+    "name": "Adultsutra 1m",
+    "ig_followers": 820934,
+    "ig_handle": "adultsutra",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "102",
+    "name": "Imran Choudhury",
+    "ig_followers": 792166,
+    "ig_handle": "imran_choudhury007",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32575",
+    "name": "Ashleelsansar",
+    "ig_followers": 791183,
+    "ig_handle": "ashleelsansar",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32508",
+    "name": "The Indian Fever",
+    "ig_followers": 1678081,
+    "ig_handle": "theindianfever",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48452",
+    "name": "Cute Relationship Memes | Abhishek Watts",
+    "ig_followers": 1637892,
+    "ig_handle": "cuterelationship.in",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "39098",
+    "name": "Facts Of Students",
+    "ig_followers": 1635004,
+    "ig_handle": "facts.of.students",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48468",
+    "name": "Thecomicflight",
+    "ig_followers": 1629989,
+    "ig_handle": "thecomicflight",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "26270",
+    "name": "Theneer Idaivelai",
+    "ig_followers": 1584085,
+    "ig_handle": "theneeridaivelai",
+    "category": "Health",
+    "subcategory": "Body, Body-care & Vitality"
+  },
+  {
+    "id": "32510",
+    "name": "Haq Se Single",
+    "ig_followers": 1563283,
+    "ig_handle": "haq_se_single",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32603",
+    "name": "Besties Love",
+    "ig_followers": 1505041,
+    "ig_handle": "_bestiies.4ever._",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32521",
+    "name": "Pehla Pyar",
+    "ig_followers": 1498971,
+    "ig_handle": "pehla.pyar",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32515",
+    "name": "Trollscasm",
+    "ig_followers": 1488433,
+    "ig_handle": "trollscasm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32514",
+    "name": "Dekh Pagli | Pratyaksha Jha",
+    "ig_followers": 1449858,
+    "ig_handle": "dekhpagli",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32518",
+    "name": "Single Adda",
+    "ig_followers": 1381274,
+    "ig_handle": "singleadda.in",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32525",
+    "name": "𝗕𝗮𝗰𝗸𝗯𝗲𝗻𝗰𝗵𝗲𝗿 𝗛𝗼𝗺𝗶𝗲",
+    "ig_followers": 1374251,
+    "ig_handle": "backbencherhomie",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32760",
+    "name": "Memes | Comedy | Funny Reels",
+    "ig_followers": 1344027,
+    "ig_handle": "orgcasm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32523",
+    "name": "Naughtygram",
+    "ig_followers": 1326315,
+    "ig_handle": "naughty.gramm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32528",
+    "name": "Singles Society",
+    "ig_followers": 1292121,
+    "ig_handle": "singles.society",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32520",
+    "name": "Tushar Sharma",
+    "ig_followers": 1290360,
+    "ig_handle": "shinchanmemes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32318",
+    "name": "Gujarati Jai",
+    "ig_followers": 1230856,
+    "ig_handle": "gujju_jalwa",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32522",
+    "name": "Sarcastic Family",
+    "ig_followers": 1211100,
+    "ig_handle": "_sarcasticfamily_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32553",
+    "name": "Flirty Chats",
+    "ig_followers": 1199972,
+    "ig_handle": "flirtychats",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48504",
+    "name": "Cool Success - Motivation",
+    "ig_followers": 1140992,
+    "ig_handle": "coolsuccess",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32671",
+    "name": "Funny Jokes",
+    "ig_followers": 1137652,
+    "ig_handle": "funnyjokes_hindi",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32531",
+    "name": "Viral Spoof",
+    "ig_followers": 1104405,
+    "ig_handle": "viralspoof",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "13758",
+    "name": "Instantbollybytes",
+    "ig_followers": 1101507,
+    "ig_handle": "instantbollybytes",
+    "category": "Community Pages",
+    "subcategory": "Fan-Page: Movies & Movie-Celebs"
+  },
+  {
+    "id": "32891",
+    "name": "Chennaiist 1m",
+    "ig_followers": 1091320,
+    "ig_handle": "chennaiist",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32534",
+    "name": "Ext Level Bakchodi",
+    "ig_followers": 1084838,
+    "ig_handle": "bakchodioverload",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32763",
+    "name": "Bhai Ki Haveli",
+    "ig_followers": 1080464,
+    "ig_handle": "bhaikihaveli",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32530",
+    "name": "Laughculture",
+    "ig_followers": 1071049,
+    "ig_handle": "laughculture",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32529",
+    "name": "Naughty Society",
+    "ig_followers": 1070001,
+    "ig_handle": "_naughtysociety",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "110",
+    "name": "Aarish Shah19",
+    "ig_followers": 1061345,
+    "ig_handle": "aarish__shah19",
+    "category": "Comedy & Memes",
+    "subcategory": "Funny Shorts"
+  },
+  {
+    "id": "38147",
+    "name": "My Love 4 Bollywood",
+    "ig_followers": 1058732,
+    "ig_handle": "mylove4bollywood",
+    "category": "Community Pages",
+    "subcategory": "Art & Artist Community Page"
+  },
+  {
+    "id": "32526",
+    "name": "Just Hasley Things",
+    "ig_followers": 1051796,
+    "ig_handle": "just.hasley.things",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32325",
+    "name": "Vadivelu Memes",
+    "ig_followers": 1047231,
+    "ig_handle": "vadivelumemes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32571",
+    "name": "Fun Factorss 1m",
+    "ig_followers": 1038318,
+    "ig_handle": "fun_factorss",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32535",
+    "name": "Trollcasmic 2m",
+    "ig_followers": 1025146,
+    "ig_handle": "trollcasmic",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48475",
+    "name": "Sariflog | Vishal Goel",
+    "ig_followers": 1023537,
+    "ig_handle": "sariflog",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32545",
+    "name": "Desi Crap -memes | Raj Ramesh Jain",
+    "ig_followers": 1020162,
+    "ig_handle": "desi.crap",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32726",
+    "name": "𝗧𝗵𝗲 𝗥𝗲𝗮𝗹 𝗦𝗮𝗿𝗰𝗮𝘀𝗺𝘀",
+    "ig_followers": 1009490,
+    "ig_handle": "therealsarcasms",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32702",
+    "name": "Naughtycasmm",
+    "ig_followers": 1008476,
+    "ig_handle": "naughtycasmm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32346",
+    "name": "Chennai Talkies",
+    "ig_followers": 1008045,
+    "ig_handle": "chennaitalkies",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32345",
+    "name": "Star Corner",
+    "ig_followers": 1005058,
+    "ig_handle": "starcorner",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32578",
+    "name": "Bawa Booze",
+    "ig_followers": 668835,
+    "ig_handle": "bawabooze",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32564",
+    "name": "Fuddu Baba",
+    "ig_followers": 663079,
+    "ig_handle": "fuddu_baba",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32563",
+    "name": "Naughtyasmm",
+    "ig_followers": 653274,
+    "ig_handle": "naughtyasmm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "23028",
+    "name": "Yuvaa",
+    "ig_followers": 645329,
+    "ig_handle": "weareyuvaa",
+    "category": "",
+    "subcategory": ""
+  },
+  {
+    "id": "48469",
+    "name": "Chole Chawal",
+    "ig_followers": 639875,
+    "ig_handle": "choleychawal",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "43733",
+    "name": "Doraemon Memes™",
+    "ig_followers": 639037,
+    "ig_handle": "doraemon.memes__",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32579",
+    "name": "Maaldebro",
+    "ig_followers": 638678,
+    "ig_handle": "maaldebro",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "16087",
+    "name": "Happy Faces Goal",
+    "ig_followers": 636580,
+    "ig_handle": "happyfacesgoal",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32731",
+    "name": "Idioticnation",
+    "ig_followers": 626701,
+    "ig_handle": "idioticnation",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32761",
+    "name": "Indian Toxic Meme",
+    "ig_followers": 619161,
+    "ig_handle": "indiantoxicmeme",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48467",
+    "name": "Best Memes And Reels",
+    "ig_followers": 618695,
+    "ig_handle": "highandlaugh",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32594",
+    "name": "Couple Love",
+    "ig_followers": 609488,
+    "ig_handle": "couple_luww",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48474",
+    "name": "Sarif Girls",
+    "ig_followers": 608669,
+    "ig_handle": "sarifgirls",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32300",
+    "name": "Confused Aatma",
+    "ig_followers": 600321,
+    "ig_handle": "confused.aatma",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32735",
+    "name": "The Adult Hub",
+    "ig_followers": 597748,
+    "ig_handle": "theadulthub_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32293",
+    "name": "Addicted To Memes",
+    "ig_followers": 596365,
+    "ig_handle": "addicted_to__memes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32315",
+    "name": "Epic Like Bro | Akash Pawar",
+    "ig_followers": 588398,
+    "ig_handle": "epic.like.bro",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32755",
+    "name": "Tharki Troll",
+    "ig_followers": 588049,
+    "ig_handle": "tharkitroll",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32822",
+    "name": "Flirtingstudent",
+    "ig_followers": 582142,
+    "ig_handle": "flirtingstudent",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32592",
+    "name": "𝗦𝗟𝗔𝗬𝗦𝗢𝗖𝗜𝗘𝗧𝗧𝗬",
+    "ig_followers": 581661,
+    "ig_handle": "slaysocietty",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "10165",
+    "name": "Love You Always Dear",
+    "ig_followers": 470499,
+    "ig_handle": "love_you_always_dear",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32774",
+    "name": "Adult Munde",
+    "ig_followers": 467531,
+    "ig_handle": "adultmunde",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32591",
+    "name": "Thecollegeboyy",
+    "ig_followers": 466578,
+    "ig_handle": "thecollegeboyy",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32770",
+    "name": "Naughty Bro",
+    "ig_followers": 465730,
+    "ig_handle": "naughtybro_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32817",
+    "name": "The Shayari World",
+    "ig_followers": 465466,
+    "ig_handle": "_the.shayari.world",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32608",
+    "name": "Friendshipgangs",
+    "ig_followers": 462478,
+    "ig_handle": "friendshipgangs",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32721",
+    "name": "The Troll Factory",
+    "ig_followers": 459720,
+    "ig_handle": "the.troll.factory",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32321",
+    "name": "Troll Anthammas",
+    "ig_followers": 457118,
+    "ig_handle": "trollanthammas",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32737",
+    "name": "Bestie World",
+    "ig_followers": 453786,
+    "ig_handle": "bestieeworld_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32734",
+    "name": "69 Harami",
+    "ig_followers": 452121,
+    "ig_handle": "69harami",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32588",
+    "name": "School Culture",
+    "ig_followers": 451011,
+    "ig_handle": "theschoolculture",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32669",
+    "name": "Meme Flick",
+    "ig_followers": 450792,
+    "ig_handle": "meme_flick",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32739",
+    "name": "Bestiess4evers",
+    "ig_followers": 443138,
+    "ig_handle": "bestiess4evers",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32722",
+    "name": "Memes | Comedy",
+    "ig_followers": 442306,
+    "ig_handle": "desihumour69",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32775",
+    "name": "Girl Admin",
+    "ig_followers": 436025,
+    "ig_handle": "flirtingsocietyy",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32296",
+    "name": "Mallu Thugs",
+    "ig_followers": 430582,
+    "ig_handle": "malluthugs",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32361",
+    "name": "Vadivelu Version",
+    "ig_followers": 428624,
+    "ig_handle": "vadiveluversion",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32363",
+    "name": "Orukadhasollatasir | Okss",
+    "ig_followers": 427313,
+    "ig_handle": "orukadhasollatasir.okss",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32626",
+    "name": "Rich Couples",
+    "ig_followers": 419446,
+    "ig_handle": "therichcouples",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48456",
+    "name": "Desithuglife By Krishna Sharma",
+    "ig_followers": 419286,
+    "ig_handle": "desithuglife",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32800",
+    "name": "Posts Which Make You Go Awww",
+    "ig_followers": 529460,
+    "ig_handle": "awww.gram_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32609",
+    "name": "The Besties 4 Ever",
+    "ig_followers": 529131,
+    "ig_handle": "besties4ever.in",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32352",
+    "name": "Tamil Memes",
+    "ig_followers": 519160,
+    "ig_handle": "irukku_inga_fun_irukku",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32597",
+    "name": "𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐈𝐝𝐢𝐨𝐭𝐢𝐜 𝐆𝐲𝐚𝐧",
+    "ig_followers": 517235,
+    "ig_handle": "idioticgyan",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32583",
+    "name": "Be Tharaki",
+    "ig_followers": 515316,
+    "ig_handle": "be_tharaki",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32732",
+    "name": "Fact About Girls",
+    "ig_followers": 513807,
+    "ig_handle": "naughtyuncle_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "20996",
+    "name": "Couplesocietty",
+    "ig_followers": 513770,
+    "ig_handle": "couplesocietty",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32614",
+    "name": "𝐓𝐡𝐞 𝐋𝐚𝐬𝐭 𝐁𝐞𝐧𝐜𝐡𝐞𝐫𝐬",
+    "ig_followers": 507719,
+    "ig_handle": "thelastbenchrs",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32619",
+    "name": "Devar Jee Official",
+    "ig_followers": 505713,
+    "ig_handle": "devar.jee",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32738",
+    "name": "𝐓𝐡𝐞 𝐂𝐨𝐮𝐩𝐥𝐞 𝐒𝐨𝐜𝐢𝐞𝐭𝐲",
+    "ig_followers": 501386,
+    "ig_handle": "thecouplesocietty",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32353",
+    "name": "Video Memes",
+    "ig_followers": 499980,
+    "ig_handle": "videomemes.vm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32736",
+    "name": "Naughty Insta",
+    "ig_followers": 499294,
+    "ig_handle": "naughtyinstaaa",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32615",
+    "name": "Tn Memes",
+    "ig_followers": 494735,
+    "ig_handle": "trollsnations",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32360",
+    "name": "90's Parithabangal",
+    "ig_followers": 489651,
+    "ig_handle": "90s_parithabangal",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32355",
+    "name": "Tamil Pasanga",
+    "ig_followers": 480986,
+    "ig_handle": "tamilpasanga_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32813",
+    "name": "Burned Diary | Saransh Tiwari",
+    "ig_followers": 478285,
+    "ig_handle": "burned.diary",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48461",
+    "name": "Memes",
+    "ig_followers": 477957,
+    "ig_handle": "sarcasm_u",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "16042",
+    "name": "The Writing Spook",
+    "ig_followers": 475569,
+    "ig_handle": "thewritingspook",
+    "category": "News, Media & Magazines",
+    "subcategory": "Feel-Good News / Stories"
+  },
+  {
+    "id": "32606",
+    "name": "𝗡𝗮𝘂𝗴𝗵𝘁𝘁𝘆𝗦𝘁𝘂𝗳𝗳",
+    "ig_followers": 471572,
+    "ig_handle": "naughttystuff",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "30510",
+    "name": "The Desi Stuff",
+    "ig_followers": 471250,
+    "ig_handle": "thedesistuff",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48476",
+    "name": "Check To Karo",
+    "ig_followers": 579666,
+    "ig_handle": "hutiyagram",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32754",
+    "name": "The Desi Troll",
+    "ig_followers": 579475,
+    "ig_handle": "the.desi.troll",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48515",
+    "name": "Motivation | Success | Business",
+    "ig_followers": 575474,
+    "ig_handle": "motivationline265",
+    "category": "News, Media & Magazines",
+    "subcategory": "Feel-Good News / Stories"
+  },
+  {
+    "id": "32757",
+    "name": "Collegecasm™ 1m",
+    "ig_followers": 573523,
+    "ig_handle": "collegecasm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48472",
+    "name": "Comic Dad",
+    "ig_followers": 566915,
+    "ig_handle": "comicdad",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32756",
+    "name": "69 Doze™ 1m",
+    "ig_followers": 566268,
+    "ig_handle": "69doze",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32581",
+    "name": "Ashleelbillu",
+    "ig_followers": 560877,
+    "ig_handle": "ashleelbillu",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32585",
+    "name": "Naughtysociety",
+    "ig_followers": 559558,
+    "ig_handle": "naughty_societty",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32587",
+    "name": "Mr Johnny Bhai",
+    "ig_followers": 558922,
+    "ig_handle": "mr_johnny_bhai",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32889",
+    "name": "Amazing Amdavad || Ahmedabad Previously ||",
+    "ig_followers": 558400,
+    "ig_handle": "amazing.amdavad",
+    "category": "Community Pages",
+    "subcategory": "City-focused Content"
+  },
+  {
+    "id": "32590",
+    "name": "𝗡𝗔𝗨𝗚𝗛𝗧𝗬𝗛𝗨𝗠𝗢𝗨𝗥𝗦",
+    "ig_followers": 555378,
+    "ig_handle": "naughtyhumours",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48471",
+    "name": "The Indian Poop",
+    "ig_followers": 554171,
+    "ig_handle": "theindianpoop",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32759",
+    "name": "Check To Karo",
+    "ig_followers": 553142,
+    "ig_handle": "eassybro",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32343",
+    "name": "Belikekaipulla",
+    "ig_followers": 549536,
+    "ig_handle": "belikekaipulla",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32720",
+    "name": "Idioticschool (accepting Soon)",
+    "ig_followers": 544310,
+    "ig_handle": "idioticschool",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32350",
+    "name": "Vera Level Memes",
+    "ig_followers": 543535,
+    "ig_handle": "vera_level_memes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32635",
+    "name": "Brocasm",
+    "ig_followers": 542821,
+    "ig_handle": "brocasm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32595",
+    "name": "Thenaughtytrolls",
+    "ig_followers": 541838,
+    "ig_handle": "thenaughtytrolls",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48463",
+    "name": "Chotu Sarcastic",
+    "ig_followers": 537282,
+    "ig_handle": "chotusarcastic",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32711",
+    "name": "Check Toh Karo",
+    "ig_followers": 535285,
+    "ig_handle": "adultsutta",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32628",
+    "name": "Besties Forever",
+    "ig_followers": 418783,
+    "ig_handle": "besties_foreveerr",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32612",
+    "name": "Check To Karo",
+    "ig_followers": 417248,
+    "ig_handle": "_ashleelbro_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32263",
+    "name": "Indian Memes",
+    "ig_followers": 411761,
+    "ig_handle": "theindianmemes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32356",
+    "name": "Cricket Tamizhan",
+    "ig_followers": 410602,
+    "ig_handle": "cricket.tamizhan",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32823",
+    "name": "Thetrolllsfamily",
+    "ig_followers": 407439,
+    "ig_handle": "thetrollsfamily",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32780",
+    "name": "Teri Meri Bakchodiyan",
+    "ig_followers": 404514,
+    "ig_handle": "teri_meri_bakchodiyan",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32667",
+    "name": "Meme Culture",
+    "ig_followers": 397313,
+    "ig_handle": "memecultures.in",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48479",
+    "name": "Couples Forever",
+    "ig_followers": 396023,
+    "ig_handle": "couple.school_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32704",
+    "name": "Ghantazindagii",
+    "ig_followers": 393637,
+    "ig_handle": "ghantazindagii",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32707",
+    "name": "𝗗𝗢𝗥𝗔𝗘𝗠𝗢𝗡 𝗧𝗥𝗢𝗟𝗟𝗦",
+    "ig_followers": 393078,
+    "ig_handle": "doraemon_trolls",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "43728",
+    "name": "𝗠𝗲𝗺𝗲𝘀 𝗕𝘆 𝗠𝗱 𝗠𝗼𝗷𝗮𝘀𝘀𝗶𝗺",
+    "ig_followers": 392669,
+    "ig_handle": "laughwith_mm19",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48451",
+    "name": "𝐌𝐞𝐦𝐞 𝐓r𝐨𝐥𝐥𝐬",
+    "ig_followers": 391449,
+    "ig_handle": "memetolls",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48450",
+    "name": "Desi Society",
+    "ig_followers": 389674,
+    "ig_handle": "_desisociety",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32808",
+    "name": "School Wala Love | Memes",
+    "ig_followers": 385592,
+    "ig_handle": "school.wala.love",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "38148",
+    "name": "Webseriesmania",
+    "ig_followers": 385590,
+    "ig_handle": "webseriesmania",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32359",
+    "name": "Tamil Memes",
+    "ig_followers": 385435,
+    "ig_handle": "orukadhasollattasir",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48454",
+    "name": "Altu Faltu",
+    "ig_followers": 381420,
+    "ig_handle": "altu.faltu",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32750",
+    "name": "Tharki Sochh",
+    "ig_followers": 374959,
+    "ig_handle": "tharki.sochh",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "38486",
+    "name": "Kartik Singh",
+    "ig_followers": 373459,
+    "ig_handle": "half_zindagi",
+    "category": "Community Pages",
+    "subcategory": "Fan-Page: Movies & Movie-Celebs"
+  },
+  {
+    "id": "48465",
+    "name": "Funnybr0",
+    "ig_followers": 371762,
+    "ig_handle": "funnybr0",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "38149",
+    "name": "Theironicalbaba Amit Singla",
+    "ig_followers": 369576,
+    "ig_handle": "theironicalbaba",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32369",
+    "name": "Ponga Soru Memez",
+    "ig_followers": 369207,
+    "ig_handle": "ponga_soru_memez",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32766",
+    "name": "Tharaki Facts",
+    "ig_followers": 367397,
+    "ig_handle": "tharaki.facts",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32617",
+    "name": "Ashleelhomie",
+    "ig_followers": 366563,
+    "ig_handle": "ashleelhomie",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32764",
+    "name": "Be Hawsi",
+    "ig_followers": 364045,
+    "ig_handle": "be_hawsi",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32706",
+    "name": "Town Full Of Sarcasm",
+    "ig_followers": 359737,
+    "ig_handle": "sarcastic.town",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32782",
+    "name": "Check To Karo",
+    "ig_followers": 359011,
+    "ig_handle": "singlesplace",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "1402",
+    "name": "ᕼ ᗩᗰᗩᒪᗪᗩs",
+    "ig_followers": 356814,
+    "ig_handle": "mhamaldas",
+    "category": "Entertainment",
+    "subcategory": "Fun-Content"
+  },
+  {
+    "id": "32824",
+    "name": "Farzigags",
+    "ig_followers": 352810,
+    "ig_handle": "farzigags",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "29472",
+    "name": "Marathi Memes And Trolls",
+    "ig_followers": 351565,
+    "ig_handle": "marathi_memes_and_trolls",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "40358",
+    "name": "I Am A Marathi Teacher",
+    "ig_followers": 351169,
+    "ig_handle": "ifeelmarathi",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32812",
+    "name": "The Meme Factory",
+    "ig_followers": 350100,
+    "ig_handle": "memesfactory.ig",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "10634",
+    "name": "Ammy Virk Fans Club",
+    "ig_followers": 347480,
+    "ig_handle": "ammyvirkfansclub",
+    "category": "Community Pages",
+    "subcategory": "Fan-Page: Sports & Sports-Celebs"
+  },
+  {
+    "id": "32622",
+    "name": "Naughty School",
+    "ig_followers": 346268,
+    "ig_handle": "_naughtyschool_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32373",
+    "name": "Shinchan Tamil",
+    "ig_followers": 345249,
+    "ig_handle": "shinchantamil.in",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32986",
+    "name": "Kaipulla Memes",
+    "ig_followers": 344847,
+    "ig_handle": "kaipulla_memes2.0",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48478",
+    "name": "𝗠𝗘𝗠𝗘 | 𝗤𝗨𝗢𝗧𝗘𝗦 | 𝗟𝗢𝗩𝗘",
+    "ig_followers": 343473,
+    "ig_handle": "bestiess.forever_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32616",
+    "name": "𝐇𝐮𝐦𝐨𝐫𝐂𝐚𝐬𝐦𝐢𝐜",
+    "ig_followers": 343242,
+    "ig_handle": "humorcasmic",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32368",
+    "name": "Chennai Ponnunga Da",
+    "ig_followers": 342598,
+    "ig_handle": "chennaiponnungada",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32825",
+    "name": "Friendship Goal",
+    "ig_followers": 341728,
+    "ig_handle": "myfriendshipgoal",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32426",
+    "name": "Memes With Makkal",
+    "ig_followers": 341238,
+    "ig_handle": "memeswithmakkal",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "43759",
+    "name": "Happy Moments",
+    "ig_followers": 337866,
+    "ig_handle": "making.men.happy",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32623",
+    "name": "69 Error",
+    "ig_followers": 336517,
+    "ig_handle": "69error",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32705",
+    "name": "Memes | Reels | Drama",
+    "ig_followers": 334695,
+    "ig_handle": "indianmemegram",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32618",
+    "name": "Chalbyeyaar",
+    "ig_followers": 334293,
+    "ig_handle": "chalbyeyaar",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "29466",
+    "name": "Hebaghbhava-",
+    "ig_followers": 334290,
+    "ig_handle": "hebaghbhava",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "45008",
+    "name": "Hyd Meme Wala",
+    "ig_followers": 333122,
+    "ig_handle": "hyderabadimemewala",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32802",
+    "name": "Relationship Goals",
+    "ig_followers": 330327,
+    "ig_handle": "couple.goals.tales",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32365",
+    "name": "Video Memes",
+    "ig_followers": 329117,
+    "ig_handle": "videomemes.in",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32625",
+    "name": "Naughty Sarcasm",
+    "ig_followers": 322249,
+    "ig_handle": "_naughtysarcasm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48482",
+    "name": "The Girls Sayings",
+    "ig_followers": 316035,
+    "ig_handle": "the.girls.sayings",
+    "category": "",
+    "subcategory": ""
+  },
+  {
+    "id": "32783",
+    "name": "𝗧𝗵𝗲 𝗜𝗱𝗶𝗼𝘁𝗶𝗰 𝗧𝗿𝗼𝗹𝗹",
+    "ig_followers": 313324,
+    "ig_handle": "theidiotictroll",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32637",
+    "name": "Naughtybillu",
+    "ig_followers": 313155,
+    "ig_handle": "_naughtybillu_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32690",
+    "name": "Nasty Gag",
+    "ig_followers": 311167,
+    "ig_handle": "nastygag",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48480",
+    "name": "𝙎𝙖𝙧𝙘𝙖𝙨𝙩𝙞𝙘 𝙏𝙪𝙗𝙚",
+    "ig_followers": 308277,
+    "ig_handle": "sarcastictube",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "13539",
+    "name": "Srushti Shah",
+    "ig_followers": 306708,
+    "ig_handle": "ssrushti",
+    "category": "Fitness",
+    "subcategory": "Training & Fitness"
+  },
+  {
+    "id": "32367",
+    "name": "Encounter Ekambaram",
+    "ig_followers": 304125,
+    "ig_handle": "encounter___ekambaram",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32768",
+    "name": "Girl Admin",
+    "ig_followers": 298524,
+    "ig_handle": "sarcasmicschool_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32629",
+    "name": "Naughtyjokes",
+    "ig_followers": 296448,
+    "ig_handle": "_naughtyjokes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32364",
+    "name": "Thug Tamil",
+    "ig_followers": 294672,
+    "ig_handle": "thug_.tamil_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32787",
+    "name": "𝘿𝙚𝙨𝙞 𝙅𝙤𝙠𝙚",
+    "ig_followers": 293423,
+    "ig_handle": "desii.joke",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32371",
+    "name": "Ennama__anga__satham",
+    "ig_followers": 292382,
+    "ig_handle": "ennama__anga__satham",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32642",
+    "name": "One Side Lovers",
+    "ig_followers": 287702,
+    "ig_handle": "one_side_lovers",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32264",
+    "name": "Office Memes For Working Teens",
+    "ig_followers": 282624,
+    "ig_handle": "officememesforworkingteens",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "41197",
+    "name": "Americanrilafrustration - Anlf",
+    "ig_followers": 281911,
+    "ig_handle": "america_nri_la_frustration",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "46081",
+    "name": "Hasle Bhaii",
+    "ig_followers": 280843,
+    "ig_handle": "hasle.bhaii",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32692",
+    "name": "Epicschooldayss",
+    "ig_followers": 280548,
+    "ig_handle": "epicschooldayss",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32621",
+    "name": "Single Logo Ki Army",
+    "ig_followers": 278557,
+    "ig_handle": "singlesena_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32374",
+    "name": "Kaipulla Talkies",
+    "ig_followers": 271850,
+    "ig_handle": "kaipullatalkies",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "23122",
+    "name": "Chavat Tatya",
+    "ig_followers": 271330,
+    "ig_handle": "chavat_tatya",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32708",
+    "name": "Check To Karo",
+    "ig_followers": 270061,
+    "ig_handle": "fukreyculture",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32765",
+    "name": "Tharki Damad",
+    "ig_followers": 269925,
+    "ig_handle": "damad_jee",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "28053",
+    "name": "Haramiparindey",
+    "ig_followers": 266675,
+    "ig_handle": "haramiparindey",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32641",
+    "name": "Ashleelculture",
+    "ig_followers": 265365,
+    "ig_handle": "ashleelculture",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32376",
+    "name": "𝗩𝗶𝗿𝗮𝗹 𝗣𝗼𝘀𝘁𝘂",
+    "ig_followers": 265111,
+    "ig_handle": "viralpostu",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32792",
+    "name": "Adulttroll.ig",
+    "ig_followers": 264748,
+    "ig_handle": "theadulttroll.ig",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32640",
+    "name": "Shinchan Memes",
+    "ig_followers": 261393,
+    "ig_handle": "shinchan.meme",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32379",
+    "name": "Bachelor Of Entertainment",
+    "ig_followers": 260929,
+    "ig_handle": "bachelor.of.entertainment",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32747",
+    "name": "Official Page Of Flirtnations",
+    "ig_followers": 260698,
+    "ig_handle": "flirtynations",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32713",
+    "name": "Our School Life",
+    "ig_followers": 259560,
+    "ig_handle": "ourschoolife",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32758",
+    "name": "Funny Wala",
+    "ig_followers": 257956,
+    "ig_handle": "funny_wala",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32378",
+    "name": "Troll Postu",
+    "ig_followers": 257560,
+    "ig_handle": "trollpostu",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32382",
+    "name": "Single Seyalgal",
+    "ig_followers": 254373,
+    "ig_handle": "singleseyalgal",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32383",
+    "name": "Showkalis Swag",
+    "ig_followers": 254186,
+    "ig_handle": "showkalis_swag",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "40365",
+    "name": "Rookieedits",
+    "ig_followers": 249826,
+    "ig_handle": "rookieedits_",
+    "category": "News, Media & Magazines",
+    "subcategory": "Entertainment"
+  },
+  {
+    "id": "32785",
+    "name": "𝗦𝗶𝗻𝗴𝗹𝗲𝘀 𝗛𝘂𝗯",
+    "ig_followers": 249131,
+    "ig_handle": "singleshubb",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32326",
+    "name": "R A A G H U L",
+    "ig_followers": 249038,
+    "ig_handle": "cringe_c.at",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48442",
+    "name": "Check To Karo",
+    "ig_followers": 248694,
+    "ig_handle": "bestie.ka.pyar",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32380",
+    "name": "Half Boil Memes",
+    "ig_followers": 238417,
+    "ig_handle": "halfboilmemes_2.0",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "26290",
+    "name": "We Memkar",
+    "ig_followers": 237293,
+    "ig_handle": "aamhimemekar",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32673",
+    "name": "𝗧𝗵𝗲 𝗦𝗰𝗵𝗼𝗼𝗹 𝗟𝘆𝗳",
+    "ig_followers": 234840,
+    "ig_handle": "theschoolyf",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "8090",
+    "name": "Bakchod Nation",
+    "ig_followers": 233511,
+    "ig_handle": "bakchod_nation",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32714",
+    "name": "𝗧𝗛𝗔𝗥𝗔𝗞 𝗙𝗟𝗜𝗫",
+    "ig_followers": 232649,
+    "ig_handle": "tharakflix",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32677",
+    "name": "S A R C A S M I C Boi",
+    "ig_followers": 231642,
+    "ig_handle": "sarcasmic.boi",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "25291",
+    "name": "Shubham Khurana",
+    "ig_followers": 229283,
+    "ig_handle": "corporatcomics",
+    "category": "Arts",
+    "subcategory": "Doodling & Animation"
+  },
+  {
+    "id": "32644",
+    "name": "Memes | Comedy | Drama",
+    "ig_followers": 227114,
+    "ig_handle": "schoolmemories.ig",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32816",
+    "name": "Memes | Comedy | Laughter",
+    "ig_followers": 227114,
+    "ig_handle": "flirting.school",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32295",
+    "name": "Mysuru Memes",
+    "ig_followers": 225535,
+    "ig_handle": "mysuru_memes",
+    "category": "Community Pages",
+    "subcategory": "City-focused Content"
+  },
+  {
+    "id": "32298",
+    "name": "The Dope Indian",
+    "ig_followers": 225458,
+    "ig_handle": "thedopeindian",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "26603",
+    "name": "Urbanasian",
+    "ig_followers": 224944,
+    "ig_handle": "urbanasian",
+    "category": "News, Media & Magazines",
+    "subcategory": "Entertainment"
+  },
+  {
+    "id": "32773",
+    "name": "𝗗𝗲𝘀𝗶 𝗧𝗿𝗼𝘂𝗯𝗹𝗲",
+    "ig_followers": 219960,
+    "ig_handle": "desitrouble",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32384",
+    "name": "Maja Version",
+    "ig_followers": 219872,
+    "ig_handle": "majaversion",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32390",
+    "name": "Meme.engineering.m.e",
+    "ig_followers": 219571,
+    "ig_handle": "meme.engineering.m.e",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32395",
+    "name": "Be Like Sagala",
+    "ig_followers": 218582,
+    "ig_handle": "belikesagala",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32388",
+    "name": "90s Kids Daw",
+    "ig_followers": 217956,
+    "ig_handle": "90skidsdaw_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "27942",
+    "name": "Lucknow",
+    "ig_followers": 217782,
+    "ig_handle": "lucknow_memes",
+    "category": "Community Pages",
+    "subcategory": "City-focused Content"
+  },
+  {
+    "id": "32381",
+    "name": "Besties",
+    "ig_followers": 214394,
+    "ig_handle": "besties_meme",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32319",
+    "name": "Bengaluru Adda",
+    "ig_followers": 213530,
+    "ig_handle": "bengaluruadda",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32386",
+    "name": "𝙏𝙧𝙤𝙡𝙡𝙨𝙞𝙣𝙜𝙡𝙚𝙨",
+    "ig_followers": 212128,
+    "ig_handle": "trollsingles",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32385",
+    "name": "Jill Jung Juck",
+    "ig_followers": 208692,
+    "ig_handle": "_jill_jung_juck",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32389",
+    "name": "Masala_poori_memes_official",
+    "ig_followers": 208212,
+    "ig_handle": "masala_poori_memes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32645",
+    "name": "Ashleeldude",
+    "ig_followers": 207803,
+    "ig_handle": "ashleeldude",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "45659",
+    "name": "Nagpur's Club Official",
+    "ig_followers": 206886,
+    "ig_handle": "nagpursclub_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32749",
+    "name": "Masti Ka Doze",
+    "ig_followers": 204392,
+    "ig_handle": "mastikadoze",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32719",
+    "name": "Rooh",
+    "ig_followers": 204059,
+    "ig_handle": "creativesarxasm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32772",
+    "name": "Check Toh Karo",
+    "ig_followers": 198742,
+    "ig_handle": "thengineerslife",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "11599",
+    "name": "Sunil Minglani",
+    "ig_followers": 197261,
+    "ig_handle": "sunilminglani",
+    "category": "News, Media & Magazines",
+    "subcategory": "Business & Finance"
+  },
+  {
+    "id": "32743",
+    "name": "Friendshipschoool",
+    "ig_followers": 196782,
+    "ig_handle": "friendshipschoool",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32740",
+    "name": "Dont Visit",
+    "ig_followers": 196511,
+    "ig_handle": "_love.connection._",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32276",
+    "name": "Quotes | Sarcasm | Comics",
+    "ig_followers": 194233,
+    "ig_handle": "bossbitch.10",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32663",
+    "name": "Inscribed Feelings",
+    "ig_followers": 193493,
+    "ig_handle": "inscribedfeelingss",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32633",
+    "name": "𝐏𝐫𝐚𝐧𝐤𝐢𝐧𝐭𝐨",
+    "ig_followers": 191737,
+    "ig_handle": "prankinto100",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32683",
+    "name": "Be Ashleel Stay Ashleel",
+    "ig_followers": 191363,
+    "ig_handle": "be.ashleel",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "38555",
+    "name": "School Wali Baatein",
+    "ig_followers": 190755,
+    "ig_handle": "school.wali.baatein",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32742",
+    "name": "Thecrush4ever (tce)",
+    "ig_followers": 190375,
+    "ig_handle": "crush4ever.in",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32680",
+    "name": "Nahidegi",
+    "ig_followers": 189440,
+    "ig_handle": "_nahidegi_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32744",
+    "name": "𝐓𝐡𝐞 𝐁𝐚𝐜𝐤 𝐁𝐞𝐧𝐜𝐡𝐞𝐫",
+    "ig_followers": 186231,
+    "ig_handle": "thebackbnchers",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32651",
+    "name": "Bro Addict Official",
+    "ig_followers": 185937,
+    "ig_handle": "bro.addict",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32643",
+    "name": "Impress Your School Crush",
+    "ig_followers": 185538,
+    "ig_handle": "baack.benchers",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "13403",
+    "name": "Selwyn D’souza",
+    "ig_followers": 183008,
+    "ig_handle": "sellydsouzaaa",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32658",
+    "name": "Tum Kyaa Jaano",
+    "ig_followers": 182430,
+    "ig_handle": "tum_kyaa_jaano",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32436",
+    "name": "Tamil Crazy Vidz",
+    "ig_followers": 182375,
+    "ig_handle": "tamil_crazy_vidz",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32647",
+    "name": "Girl Admin",
+    "ig_followers": 179477,
+    "ig_handle": "thecomicvilla",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32771",
+    "name": "Bakchoditroll",
+    "ig_followers": 178654,
+    "ig_handle": "bakchoditroll",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32387",
+    "name": "Araathi Ponnunga Da",
+    "ig_followers": 177515,
+    "ig_handle": "araathiponnungada",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32475",
+    "name": "Update Tamil",
+    "ig_followers": 176439,
+    "ig_handle": "90s_kids__memes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32678",
+    "name": "𝗘𝗽𝗶𝗰𝘀𝗼𝗰𝗶𝗲𝘁",
+    "ig_followers": 176226,
+    "ig_handle": "epicsocietty",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32751",
+    "name": "Tharki Us",
+    "ig_followers": 175864,
+    "ig_handle": "tharki.us",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32685",
+    "name": "School Life",
+    "ig_followers": 175637,
+    "ig_handle": "schoool.lyf",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "41231",
+    "name": "Asrith Ayan",
+    "ig_followers": 174485,
+    "ig_handle": "mr_funny__music",
+    "category": "Community Pages",
+    "subcategory": "Fan-Page: Movies & Movie-Celebs"
+  },
+  {
+    "id": "32648",
+    "name": "Dream 300k",
+    "ig_followers": 173913,
+    "ig_handle": "reelslove.ig",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32393",
+    "name": "Half Boil Videos",
+    "ig_followers": 172913,
+    "ig_handle": "halfboilvideos",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32283",
+    "name": "Pcmb Memes",
+    "ig_followers": 172309,
+    "ig_handle": "pcmbmemes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32679",
+    "name": "Ghantatube",
+    "ig_followers": 171585,
+    "ig_handle": "ghantatube",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32391",
+    "name": "Thalaivar Postu",
+    "ig_followers": 171577,
+    "ig_handle": "thalaivarpostu",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32784",
+    "name": "𝐂𝐡𝐞𝐜𝐤 𝐓𝐨 𝐊𝐚𝐫𝐨",
+    "ig_followers": 171290,
+    "ig_handle": "justengineerslife",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32682",
+    "name": "Oddy Meme",
+    "ig_followers": 170528,
+    "ig_handle": "oggymeme",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32289",
+    "name": "Commerce Memes And Education",
+    "ig_followers": 164505,
+    "ig_handle": "commercian.life",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32776",
+    "name": "Memes",
+    "ig_followers": 164304,
+    "ig_handle": "bewde_chacha",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "44204",
+    "name": "Hutiyapa",
+    "ig_followers": 163582,
+    "ig_handle": "h.u.t.i.y.a.p.a",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "2464",
+    "name": "Who Wore What",
+    "ig_followers": 162223,
+    "ig_handle": "whoworewhat.club",
+    "category": "Community Pages",
+    "subcategory": "Fan-Page: Movies & Movie-Celebs"
+  },
+  {
+    "id": "32630",
+    "name": "Indian Bombs",
+    "ig_followers": 162048,
+    "ig_handle": "18plussocietyy",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "11556",
+    "name": "Antic Amdavadi",
+    "ig_followers": 160355,
+    "ig_handle": "antic_amdavadi",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32684",
+    "name": "The Funky Classes",
+    "ig_followers": 160078,
+    "ig_handle": "funky.classes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32650",
+    "name": "Cartoons Media",
+    "ig_followers": 158837,
+    "ig_handle": "cartoons.media",
+    "category": "Community Pages",
+    "subcategory": "Gaming & Anime Community Page"
+  },
+  {
+    "id": "41115",
+    "name": "Comic.world",
+    "ig_followers": 157704,
+    "ig_handle": "comicalworldd",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32399",
+    "name": "Mokka Sir",
+    "ig_followers": 154348,
+    "ig_handle": "mokkasir",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32649",
+    "name": "𝗔𝗱𝗺𝗶𝗻 𝗴𝗶𝗿𝗹",
+    "ig_followers": 153431,
+    "ig_handle": "_frnds.forever_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "39334",
+    "name": "Comedywala..",
+    "ig_followers": 153341,
+    "ig_handle": "_comedywal.a",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "6018",
+    "name": "Naughtyhome",
+    "ig_followers": 151870,
+    "ig_handle": "naughty_home",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32786",
+    "name": "Desilaughters",
+    "ig_followers": 151027,
+    "ig_handle": "desilaughters",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32398",
+    "name": "Sumar Postu",
+    "ig_followers": 150856,
+    "ig_handle": "sumarpostu",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32827",
+    "name": "Mba Memewale",
+    "ig_followers": 150555,
+    "ig_handle": "mba.memewale",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32401",
+    "name": "Madras Memoirs",
+    "ig_followers": 149234,
+    "ig_handle": "madrasmemoirs",
+    "category": "Community Pages",
+    "subcategory": "City-focused Content"
+  },
+  {
+    "id": "32396",
+    "name": "Memer Postu",
+    "ig_followers": 147728,
+    "ig_handle": "memerpostu",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32402",
+    "name": "Belikemachi",
+    "ig_followers": 147504,
+    "ig_handle": "belikemachi",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32327",
+    "name": "I.t. Memes",
+    "ig_followers": 146806,
+    "ig_handle": "itmemezz",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32698",
+    "name": "Girly Life",
+    "ig_followers": 145838,
+    "ig_handle": "girlylife_._",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32285",
+    "name": "Icse Memes",
+    "ig_followers": 141101,
+    "ig_handle": "icse_toughest_of_all_existing",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "48445",
+    "name": "Post Se Dil Ko Chuu Loonga",
+    "ig_followers": 139339,
+    "ig_handle": "sarifduniyaa",
+    "category": "News, Media & Magazines",
+    "subcategory": "Feel-Good News / Stories"
+  },
+  {
+    "id": "32465",
+    "name": "Vayasu Pasanga",
+    "ig_followers": 138981,
+    "ig_handle": "vayasu_pasanga_official",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "45278",
+    "name": "Brown People Humor",
+    "ig_followers": 138479,
+    "ig_handle": "brown_people_humor",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32778",
+    "name": "Sutta",
+    "ig_followers": 134059,
+    "ig_handle": "idiotic.sutta",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32405",
+    "name": "Kumuthahappyannachi",
+    "ig_followers": 133718,
+    "ig_handle": "kumuthahappyannachi",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32314",
+    "name": "Epic Memes",
+    "ig_followers": 132440,
+    "ig_handle": "epic.daily.meme",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32471",
+    "name": "Top Uh Tucker",
+    "ig_followers": 132040,
+    "ig_handle": "top_uh_tucker_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32407",
+    "name": "Vera Level Memes Offl",
+    "ig_followers": 131087,
+    "ig_handle": "vera_level_memes_offl",
+    "category": "",
+    "subcategory": ""
+  },
+  {
+    "id": "12345",
+    "name": "Gulzaar Shayri Quotes",
+    "ig_followers": 130260,
+    "ig_handle": "___writer___kanha",
+    "category": "Community Pages",
+    "subcategory": "Art & Artist Community Page"
+  },
+  {
+    "id": "32403",
+    "name": "Besties",
+    "ig_followers": 130193,
+    "ig_handle": "besties_meme2.0",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32458",
+    "name": "Teddy Bgm 2 0",
+    "ig_followers": 129375,
+    "ig_handle": "teddybgm2.0",
+    "category": "",
+    "subcategory": ""
+  },
+  {
+    "id": "32406",
+    "name": "Naughty Thamizha",
+    "ig_followers": 129065,
+    "ig_handle": "naughtythamizha",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32286",
+    "name": "Medical Memecitis",
+    "ig_followers": 127764,
+    "ig_handle": "memecitis",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "10772",
+    "name": "True Love With You",
+    "ig_followers": 127358,
+    "ig_handle": "true_love_with_you_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32329",
+    "name": "Slow X Reverb",
+    "ig_followers": 124302,
+    "ig_handle": "slowxreverb",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "1713",
+    "name": "Law_icon_our_rights",
+    "ig_followers": 123883,
+    "ig_handle": "legalrights__",
+    "category": "Law, Rights & Activism",
+    "subcategory": "Human Rights & Equality"
+  },
+  {
+    "id": "41400",
+    "name": "Debasish Swain",
+    "ig_followers": 123283,
+    "ig_handle": "memes.bks",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "29476",
+    "name": "Net",
+    "ig_followers": 120276,
+    "ig_handle": "netsamraat",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "11555",
+    "name": "Brunt.and.burgers",
+    "ig_followers": 119472,
+    "ig_handle": "brunt.and.burgers",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "7315",
+    "name": "Vivek Balaji",
+    "ig_followers": 117687,
+    "ig_handle": "beingvivekbalaji",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32281",
+    "name": "Wholesome×baazi",
+    "ig_followers": 116536,
+    "ig_handle": "sarcasmm.exe",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32686",
+    "name": "Honey Sperm",
+    "ig_followers": 116269,
+    "ig_handle": "horneysperm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32661",
+    "name": "𝐓𝐫𝐨𝐥𝐥𝐬𝐜𝐚𝐬𝐭𝐢𝐜",
+    "ig_followers": 112889,
+    "ig_handle": "trollscastic",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32691",
+    "name": "Oye Sun",
+    "ig_followers": 110356,
+    "ig_handle": "oyesun._",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32305",
+    "name": "Truememer",
+    "ig_followers": 109352,
+    "ig_handle": "true__memer",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32657",
+    "name": "Official Love",
+    "ig_followers": 108883,
+    "ig_handle": "officiallove.in",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "41918",
+    "name": "The Frustrated Engineer",
+    "ig_followers": 108770,
+    "ig_handle": "thefrustratedengineer_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32653",
+    "name": "School Vs College",
+    "ig_followers": 108703,
+    "ig_handle": "_school.vs.college_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32408",
+    "name": "ᴄᴏᴍᴍɪᴛᴛᴇᴅ Qᴜᴏᴛᴇꜱ & ᴍᴇᴍᴇꜱ",
+    "ig_followers": 108385,
+    "ig_handle": "committedponnungada",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "1774",
+    "name": "Comedy | Memes | Chutiyapa",
+    "ig_followers": 108110,
+    "ig_handle": "fir_chutiyapa",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32437",
+    "name": "Tamil Love Beats",
+    "ig_followers": 107278,
+    "ig_handle": "tamil_love_beats",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32745",
+    "name": "Theflirtingschool",
+    "ig_followers": 107101,
+    "ig_handle": "theflirtingschoool",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "39509",
+    "name": "Motivation || Inspiration || Success",
+    "ig_followers": 106872,
+    "ig_handle": "motivated.duniyaa",
+    "category": "News, Media & Magazines",
+    "subcategory": "Feel-Good News / Stories"
+  },
+  {
+    "id": "32659",
+    "name": "Ashleel Engineer",
+    "ig_followers": 105435,
+    "ig_handle": "ashleel.engineer",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32411",
+    "name": "Memes Mania",
+    "ig_followers": 103821,
+    "ig_handle": "__.memes.mania.__",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32654",
+    "name": "Schooldays",
+    "ig_followers": 103656,
+    "ig_handle": "_schooldayss",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32790",
+    "name": "𝐓𝐡𝐞𝐟𝐫𝐧𝐝𝐬𝐡𝐢𝐩𝐠𝐨𝐚𝐥",
+    "ig_followers": 101099,
+    "ig_handle": "thefrndshipgoal",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32288",
+    "name": "Commerce Study",
+    "ig_followers": 100061,
+    "ig_handle": "commerce.study",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "15929",
+    "name": "Kishore Rawat",
+    "ig_followers": 99114,
+    "ig_handle": "emotion_hai",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32474",
+    "name": "Gurjar",
+    "ig_followers": 98942,
+    "ig_handle": "gzb_vale_gurjar",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32427",
+    "name": "Cooku With Comali",
+    "ig_followers": 98039,
+    "ig_handle": "cookwithcomalioffll",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32701",
+    "name": "The Backbenchers",
+    "ig_followers": 97778,
+    "ig_handle": "the.back.bencherss",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "6343",
+    "name": "The Teenage Tale",
+    "ig_followers": 97704,
+    "ig_handle": "theteenage_tale",
+    "category": "News, Media & Magazines",
+    "subcategory": "Feel-Good News / Stories"
+  },
+  {
+    "id": "13520",
+    "name": "Meri Shayri",
+    "ig_followers": 97680,
+    "ig_handle": "merishayri_17",
+    "category": "News, Media & Magazines",
+    "subcategory": "Feel-Good News / Stories"
+  },
+  {
+    "id": "32409",
+    "name": "Pubg Pullinga",
+    "ig_followers": 97148,
+    "ig_handle": "pubg_pullinga",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32788",
+    "name": "𝗔𝗱𝘂𝗹𝘁 𝗠𝗮𝗳𝗶𝗮𝗮 𝟮𝟬𝟬𝗞",
+    "ig_followers": 96917,
+    "ig_handle": "adult.mafiaa",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32414",
+    "name": "Local Ponnunga Da",
+    "ig_followers": 96601,
+    "ig_handle": "localponnungada",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32664",
+    "name": "Love School",
+    "ig_followers": 96208,
+    "ig_handle": "luv_.school",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "8788",
+    "name": "Incognito Telugu",
+    "ig_followers": 96015,
+    "ig_handle": "incognito_telugu2.0",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "38877",
+    "name": "Bihar Meme",
+    "ig_followers": 95927,
+    "ig_handle": "bihar_meme_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32789",
+    "name": "Comedicollege",
+    "ig_followers": 95654,
+    "ig_handle": "comedicollege",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32748",
+    "name": "Ayushi Bhatia",
+    "ig_followers": 95378,
+    "ig_handle": "oye_chhorii",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "36382",
+    "name": "Premium Memes",
+    "ig_followers": 95309,
+    "ig_handle": "premiummemes0",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32413",
+    "name": "Bangampullingo",
+    "ig_followers": 95240,
+    "ig_handle": "bangampullingo",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32416",
+    "name": "90skidsdaw_videos",
+    "ig_followers": 94026,
+    "ig_handle": "90skidsdaw_videos",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "13531",
+    "name": "K Pramod Kumar",
+    "ig_followers": 93054,
+    "ig_handle": "thelawyr",
+    "category": "Law, Rights & Activism",
+    "subcategory": "Legal Education"
+  },
+  {
+    "id": "31861",
+    "name": "Lit Memes Mumbai",
+    "ig_followers": 91412,
+    "ig_handle": "litmemesmumbai",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32689",
+    "name": "Memes/news",
+    "ig_followers": 91051,
+    "ig_handle": "bakchodtown",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "10589",
+    "name": "Prakash Thakur",
+    "ig_followers": 90878,
+    "ig_handle": "responseprakash",
+    "category": "News, Media & Magazines",
+    "subcategory": "Breaking News & Headlines"
+  },
+  {
+    "id": "32415",
+    "name": "Vanthu Paru Puriyum",
+    "ig_followers": 90760,
+    "ig_handle": "vanthu_paru_puriyum",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32795",
+    "name": "Epic Studs",
+    "ig_followers": 90313,
+    "ig_handle": "epicstuds",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32791",
+    "name": "𝐌𝐞𝐦𝐞 𝐩𝐞𝐞𝐫",
+    "ig_followers": 90037,
+    "ig_handle": "thememepeer",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "9121",
+    "name": "Gijarati The Root",
+    "ig_followers": 89278,
+    "ig_handle": "gujju_doraemon_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "7949",
+    "name": "Purani Dilli Walo Ki Baatein",
+    "ig_followers": 88990,
+    "ig_handle": "puranidilliwaley",
+    "category": "Community Pages",
+    "subcategory": "City-focused Content"
+  },
+  {
+    "id": "11527",
+    "name": "Lifeisawesome",
+    "ig_followers": 87690,
+    "ig_handle": "lifelsawesome",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32746",
+    "name": "𝙎𝘼𝙉𝙎𝙆𝘼𝙍𝙄𝘿𝙐𝙉𝙄𝘼 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇",
+    "ig_followers": 87596,
+    "ig_handle": "sanskaridunia",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32794",
+    "name": "Divine _love",
+    "ig_followers": 86724,
+    "ig_handle": "divine_love__",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "29467",
+    "name": "Memes New Comedy",
+    "ig_followers": 86644,
+    "ig_handle": "hebaghrao",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "19116",
+    "name": "𝙐𝙇𝙏𝙍𝘼𝙇𝙀𝙂𝙀𝙉𝘿𝙈𝙀𝙈𝙀𝙎",
+    "ig_followers": 86588,
+    "ig_handle": "ultra_legend_memes_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "26767",
+    "name": "Sohail Sayyed",
+    "ig_followers": 86295,
+    "ig_handle": "therealsohail_",
+    "category": "Lifestyle & Living",
+    "subcategory": "Personal Vlogs"
+  },
+  {
+    "id": "32455",
+    "name": "Tamil Thug Life",
+    "ig_followers": 85302,
+    "ig_handle": "thuglife.tamil",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32277",
+    "name": "Lit Memes Pune",
+    "ig_followers": 83632,
+    "ig_handle": "litmemespune",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32418",
+    "name": "Vadivelumemes Backup",
+    "ig_followers": 83249,
+    "ig_handle": "vadivelumemes_videos",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32459",
+    "name": "Thendral Katru Offl",
+    "ig_followers": 82340,
+    "ig_handle": "thendral_katru_offl",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32662",
+    "name": "18.plussociety",
+    "ig_followers": 82190,
+    "ig_handle": "18.plussociety",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "41413",
+    "name": "Marathi Samrat",
+    "ig_followers": 81903,
+    "ig_handle": "marathisamrat_ig",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "8401",
+    "name": "Bankura Memes Shorts",
+    "ig_followers": 81344,
+    "ig_handle": "bankuramemes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "6335",
+    "name": "Epic Top Comments",
+    "ig_followers": 81245,
+    "ig_handle": "epic_top_comments_india",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32287",
+    "name": "Science Related Memes",
+    "ig_followers": 80637,
+    "ig_handle": "memes_for_science_students",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "8050",
+    "name": "Crypto Bharat Traders",
+    "ig_followers": 80085,
+    "ig_handle": "crypto_bharat_traders",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "51639",
+    "name": "Gangs Of Gaya",
+    "ig_followers": 78961,
+    "ig_handle": "gangsofgaya",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "29473",
+    "name": "Marathi Memes",
+    "ig_followers": 78430,
+    "ig_handle": "marathiimemes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "39069",
+    "name": "𝘾𝙤𝙣𝙩𝙖𝙜𝙞𝙤𝙪𝙨 𝘾𝙪𝙧𝙧𝙮 𝙈𝙚𝙢𝙚𝙨",
+    "ig_followers": 77867,
+    "ig_handle": "contagiouscurrymemes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32666",
+    "name": "Shinchan Trollss",
+    "ig_followers": 77592,
+    "ig_handle": "shinchan.trollss",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32466",
+    "name": "𝙈𝘼𝙎𝘼𝘼𝙇 𝙑𝘼𝘿𝘼𝙄",
+    "ig_followers": 77287,
+    "ig_handle": "masaalvadaimemes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "11256",
+    "name": "Couples Goals Love Forever",
+    "ig_followers": 76816,
+    "ig_handle": "osm.pyar",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "13537",
+    "name": "Surya",
+    "ig_followers": 75387,
+    "ig_handle": "awesome_surya_",
+    "category": "Lifestyle & Living",
+    "subcategory": "Personal Vlogs"
+  },
+  {
+    "id": "30872",
+    "name": "Kaalamadan",
+    "ig_followers": 73531,
+    "ig_handle": "kaalamadan",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "43965",
+    "name": "Cricketuse",
+    "ig_followers": 70831,
+    "ig_handle": "cricketuse",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32420",
+    "name": "Mr.karuthu Kumaru",
+    "ig_followers": 70018,
+    "ig_handle": "mr.karuthu_kumaru",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "46740",
+    "name": "The Meme Reporter",
+    "ig_followers": 69799,
+    "ig_handle": "thememereporter",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "38413",
+    "name": "Happy Desi Life",
+    "ig_followers": 68067,
+    "ig_handle": "happydesilife",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32710",
+    "name": "Dosti",
+    "ig_followers": 67696,
+    "ig_handle": "dosti__karo",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "6346",
+    "name": "Kuvelu Tetseo",
+    "ig_followers": 67350,
+    "ig_handle": "kuvelutetseo",
+    "category": "Arts",
+    "subcategory": "Music & Singing"
+  },
+  {
+    "id": "42054",
+    "name": "Bgmi Memes",
+    "ig_followers": 66779,
+    "ig_handle": "bgmi.memes",
+    "category": "Community Pages",
+    "subcategory": "Gaming & Anime Community Page"
+  },
+  {
+    "id": "39519",
+    "name": "My Cinema Story",
+    "ig_followers": 66688,
+    "ig_handle": "mycinemastory",
+    "category": "Community Pages",
+    "subcategory": "Fan-Page: Movies & Movie-Celebs"
+  },
+  {
+    "id": "46022",
+    "name": "Perfect Take Entertainment",
+    "ig_followers": 66305,
+    "ig_handle": "perfecttakeentertainment",
+    "category": "News, Media & Magazines",
+    "subcategory": "Entertainment"
+  },
+  {
+    "id": "32422",
+    "name": "Vaaipilla_raja_vr2.0",
+    "ig_followers": 64013,
+    "ig_handle": "vaaipilla_raja_vr2.0",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "7338",
+    "name": "Oh Kolkata",
+    "ig_followers": 63495,
+    "ig_handle": "ohkolkata",
+    "category": "Community Pages",
+    "subcategory": "City-focused Content"
+  },
+  {
+    "id": "32452",
+    "name": "Break Up Bgm",
+    "ig_followers": 63049,
+    "ig_handle": "breakup_bgm",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32450",
+    "name": "Mokka Master",
+    "ig_followers": 62881,
+    "ig_handle": "mokka.master",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "45056",
+    "name": "Doctor Odia | Odia Memes | Odia Content",
+    "ig_followers": 62781,
+    "ig_handle": "doctor.odia",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "30853",
+    "name": "Mohit Sharma",
+    "ig_followers": 62284,
+    "ig_handle": "mad_d_cent09",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32421",
+    "name": "Enga Thalaiku Thilla Pathiya",
+    "ig_followers": 61567,
+    "ig_handle": "enga_thalaiku_thilla_pathiya",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "6892",
+    "name": "Gujju",
+    "ig_followers": 59057,
+    "ig_handle": "gujju._.halko_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32424",
+    "name": "Ippavae Kanna Kattudhe",
+    "ig_followers": 58780,
+    "ig_handle": "ippavae_kanna_kattudhe",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32423",
+    "name": "Belikelegend",
+    "ig_followers": 58368,
+    "ig_handle": "belikelegend",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "11791",
+    "name": "Sundaram R | F1 Statistician",
+    "ig_followers": 57924,
+    "ig_handle": "f1statsguru",
+    "category": "News, Media & Magazines",
+    "subcategory": "Sports News & Coverage"
+  },
+  {
+    "id": "51785",
+    "name": "𝐕𝐢𝐬𝐡𝐚𝐥 𝐒𝐢𝐧𝐠𝐡",
+    "ig_followers": 56239,
+    "ig_handle": "ig.vishal_singh_rajput01",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "29707",
+    "name": "Sarcastic World",
+    "ig_followers": 53234,
+    "ig_handle": "your_sarcastic_world",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "11651",
+    "name": "Visionary Kamina Vk",
+    "ig_followers": 53054,
+    "ig_handle": "visionary_kmina_vk",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "7061",
+    "name": "Marathi Insects",
+    "ig_followers": 52837,
+    "ig_handle": "marathikide",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "8122",
+    "name": "Poems Of The Mind",
+    "ig_followers": 52703,
+    "ig_handle": "manassina_kavanagalu",
+    "category": "News, Media & Magazines",
+    "subcategory": "Feel-Good News / Stories"
+  },
+  {
+    "id": "46537",
+    "name": "Shah Nawaz Ali",
+    "ig_followers": 51891,
+    "ig_handle": "alnawazino",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "51883",
+    "name": "Jaipur Waipur",
+    "ig_followers": 51376,
+    "ig_handle": "jaipur_waipur",
+    "category": "Community Pages",
+    "subcategory": "City-focused Content"
+  },
+  {
+    "id": "51716",
+    "name": "The Musical Freaks",
+    "ig_followers": 49167,
+    "ig_handle": "themusicalfreaks",
+    "category": "Entertainment",
+    "subcategory": "Singing & Music Videos"
+  },
+  {
+    "id": "32284",
+    "name": "Science Wale",
+    "ig_followers": 48740,
+    "ig_handle": "science.wale",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "31836",
+    "name": "Shivani Chaudhary",
+    "ig_followers": 48564,
+    "ig_handle": "cricket_ki_diwani",
+    "category": "Community Pages",
+    "subcategory": "Fan-Page: Sports & Sports-Celebs"
+  },
+  {
+    "id": "41717",
+    "name": "Marathi Entertainment Katta",
+    "ig_followers": 47781,
+    "ig_handle": "marathi_manoranjan_katta",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "45508",
+    "name": "Appatakkars",
+    "ig_followers": 47460,
+    "ig_handle": "appatakkars_tamil",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "31795",
+    "name": "Storynotch",
+    "ig_followers": 46676,
+    "ig_handle": "storynotch",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "12407",
+    "name": "Rajiv",
+    "ig_followers": 46617,
+    "ig_handle": "rajivcasm13",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "40675",
+    "name": "Bbd Parivar",
+    "ig_followers": 46055,
+    "ig_handle": "bbd_parivar",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "46244",
+    "name": "Unbuttoned Bangaliana",
+    "ig_followers": 45670,
+    "ig_handle": "unbuttoned.bangaliana",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "7044",
+    "name": "Bhai Bhai",
+    "ig_followers": 45616,
+    "ig_handle": "bb_bhai_bhai",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "30518",
+    "name": "Memegious",
+    "ig_followers": 45591,
+    "ig_handle": "memegious",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "13333",
+    "name": "Akash Pandey",
+    "ig_followers": 45550,
+    "ig_handle": "akash.pandey11",
+    "category": "Lifestyle & Living",
+    "subcategory": "Personal Vlogs"
+  },
+  {
+    "id": "39723",
+    "name": "All About Marathi Music & Wholesome Memes",
+    "ig_followers": 44149,
+    "ig_handle": "thewholesomeboiii__",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "11783",
+    "name": "Commerce Student Memes",
+    "ig_followers": 44014,
+    "ig_handle": "commerce_duniyaa",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "10673",
+    "name": "Ranjith",
+    "ig_followers": 43229,
+    "ig_handle": "newsreader_ranjith",
+    "category": "Entertainment",
+    "subcategory": "Info-tainment"
+  },
+  {
+    "id": "48315",
+    "name": "The Fundoze",
+    "ig_followers": 43105,
+    "ig_handle": "thefundoze",
+    "category": "Comedy & Memes",
+    "subcategory": "Funny Shorts"
+  },
+  {
+    "id": "7358",
+    "name": "Aarti Sachdeva",
+    "ig_followers": 43038,
+    "ig_handle": "aartidesk",
+    "category": "Lifestyle & Living",
+    "subcategory": "Personal-Development"
+  },
+  {
+    "id": "10996",
+    "name": "Sudheer_anna_warangal_fan",
+    "ig_followers": 41665,
+    "ig_handle": "sudheer_anna_warangal_fan",
+    "category": "Community Pages",
+    "subcategory": "Fan-Page: Movies & Movie-Celebs"
+  },
+  {
+    "id": "44440",
+    "name": "Babdya",
+    "ig_followers": 41138,
+    "ig_handle": "shitmarathiserialsshow",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "9075",
+    "name": "Bring. Me. Memes.",
+    "ig_followers": 41095,
+    "ig_handle": "bringme.memes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "5827",
+    "name": "Code Tech",
+    "ig_followers": 39297,
+    "ig_handle": "code.tech_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32282",
+    "name": "Crispymemewala 2.0",
+    "ig_followers": 39263,
+    "ig_handle": "crispymemewalaa",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "12416",
+    "name": "Marathi Insults",
+    "ig_followers": 39233,
+    "ig_handle": "marathishivya",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "12518",
+    "name": "Amandeep Singh Batra",
+    "ig_followers": 38371,
+    "ig_handle": "amandeepsinghbatra",
+    "category": "Arts",
+    "subcategory": "Film-making & Cinematography"
+  },
+  {
+    "id": "31890",
+    "name": "𝗧𝗥𝗢𝗟𝗟 𝗡𝗜𝗟𝗔𝗠𝗕𝗨𝗥",
+    "ig_followers": 36885,
+    "ig_handle": "troll_nilambur",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "7161",
+    "name": "Anuj Sahay",
+    "ig_followers": 36671,
+    "ig_handle": "officialyogibaba",
+    "category": "Entertainment",
+    "subcategory": "Fun-Content"
+  },
+  {
+    "id": "7370",
+    "name": "Arey Enti Ra Edi",
+    "ig_followers": 36591,
+    "ig_handle": "arey_entira_edii",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "28056",
+    "name": "Big Fart Troll",
+    "ig_followers": 36225,
+    "ig_handle": "bigfarttrolls",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "6856",
+    "name": "Sourabh Jatav",
+    "ig_followers": 35878,
+    "ig_handle": "hellosourabhji",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "8971",
+    "name": "Sagar Editz",
+    "ig_followers": 34074,
+    "ig_handle": "khesari_lover_98764",
+    "category": "News, Media & Magazines",
+    "subcategory": "Entertainment"
+  },
+  {
+    "id": "7189",
+    "name": "Indranil Bhattacharya",
+    "ig_followers": 32535,
+    "ig_handle": "indranilb.88",
+    "category": "Lifestyle & Living",
+    "subcategory": "Personal Vlogs"
+  },
+  {
+    "id": "30278",
+    "name": "Black Peter",
+    "ig_followers": 31856,
+    "ig_handle": "blackpeter30",
+    "category": "Community Pages",
+    "subcategory": "Gaming & Anime Community Page"
+  },
+  {
+    "id": "14085",
+    "name": "Sanjeev Kariyandy",
+    "ig_followers": 31103,
+    "ig_handle": "sanjeevoriginals",
+    "category": "Entertainment",
+    "subcategory": "Fun-Content"
+  },
+  {
+    "id": "12466",
+    "name": "Pankaj Sharma",
+    "ig_followers": 30858,
+    "ig_handle": "shabdh_",
+    "category": "Arts",
+    "subcategory": "Creative Writing & Story-Telling"
+  },
+  {
+    "id": "7341",
+    "name": "Rajkotiyo",
+    "ig_followers": 30737,
+    "ig_handle": "rajkotiyo_official",
+    "category": "News, Media & Magazines",
+    "subcategory": "Feel-Good News / Stories"
+  },
+  {
+    "id": "41649",
+    "name": "Reels Talentz Official",
+    "ig_followers": 30129,
+    "ig_handle": "reels.talentz",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "1995",
+    "name": "Amanbhai",
+    "ig_followers": 29801,
+    "ig_handle": "its_nk__07",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "43497",
+    "name": "Biostrology",
+    "ig_followers": 28947,
+    "ig_handle": "biostrology",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32269",
+    "name": "Cricket Memekar",
+    "ig_followers": 28197,
+    "ig_handle": "cricketmemekar2.0",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "7357",
+    "name": "Jonakaxom",
+    "ig_followers": 27639,
+    "ig_handle": "jonakaxom.in",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32268",
+    "name": "Sudhanshu Ranjan Singh",
+    "ig_followers": 26685,
+    "ig_handle": "memegineers_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "7761",
+    "name": "Be A Human",
+    "ig_followers": 26433,
+    "ig_handle": "standby_thoughts",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "43993",
+    "name": "Meme | Funny | Comedy Reels",
+    "ig_followers": 25667,
+    "ig_handle": "69._memer",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "14216",
+    "name": "The Law Of Kali Yuga",
+    "ig_followers": 24723,
+    "ig_handle": "pagal_dikudo",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "44547",
+    "name": "Your Memer Buddy",
+    "ig_followers": 24259,
+    "ig_handle": "yourmemerbuddy",
+    "category": "Comedy & Memes",
+    "subcategory": "Funny Shorts"
+  },
+  {
+    "id": "32725",
+    "name": "Sonam",
+    "ig_followers": 23819,
+    "ig_handle": "fuddukingdom",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "8422",
+    "name": "Nitin Dhalla",
+    "ig_followers": 23727,
+    "ig_handle": "nitin_tintin10",
+    "category": "Lifestyle & Living",
+    "subcategory": "Personal Vlogs"
+  },
+  {
+    "id": "6311",
+    "name": "Nicky",
+    "ig_followers": 23689,
+    "ig_handle": "yours2amtext",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "41258",
+    "name": "Alien Level Damilans",
+    "ig_followers": 23359,
+    "ig_handle": "alien_level_damilans",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "45621",
+    "name": "Scorpio 2022",
+    "ig_followers": 22935,
+    "ig_handle": "scorpio2022_",
+    "category": "News, Media & Magazines",
+    "subcategory": "Automotive News & Reviews"
+  },
+  {
+    "id": "8047",
+    "name": "Vishal Pandya",
+    "ig_followers": 22802,
+    "ig_handle": "pandya_rocks",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "7275",
+    "name": "Aastha Atray",
+    "ig_followers": 22649,
+    "ig_handle": "aasthaatray",
+    "category": "Lifestyle & Living",
+    "subcategory": "Personal Vlogs"
+  },
+  {
+    "id": "41127",
+    "name": "Original Gujarati Tales",
+    "ig_followers": 22268,
+    "ig_handle": "originalgujaratitales",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "16848",
+    "name": "Cg_photography_boy_and_girl",
+    "ig_followers": 21355,
+    "ig_handle": "cg_photography_boy_and_girl",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "41898",
+    "name": "Dark Edits",
+    "ig_followers": 20990,
+    "ig_handle": "__dark.edits__",
+    "category": "Community Pages",
+    "subcategory": "Art & Artist Community Page"
+  },
+  {
+    "id": "40275",
+    "name": "Sindhi Memes",
+    "ig_followers": 20262,
+    "ig_handle": "sindhirandhino",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "6423",
+    "name": "Sneha Ghildiyal",
+    "ig_followers": 20091,
+    "ig_handle": "halfasleepdoodles",
+    "category": "Arts",
+    "subcategory": "Doodling & Animation"
+  },
+  {
+    "id": "18755",
+    "name": "Aastik Bhatnagar",
+    "ig_followers": 18152,
+    "ig_handle": "aastikbhatnagar",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "45495",
+    "name": "Comedy World",
+    "ig_followers": 17970,
+    "ig_handle": "sarcastics_world",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "38845",
+    "name": "Raj Dayal",
+    "ig_followers": 16378,
+    "ig_handle": "rxjdayal",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "23294",
+    "name": "Whatsapp Masti Ka Adda",
+    "ig_followers": 16338,
+    "ig_handle": "wp_adda",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "32271",
+    "name": "Savage Cricket Memes",
+    "ig_followers": 16161,
+    "ig_handle": "savage.cricket.memes",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "44637",
+    "name": "Gada Gada Gudumba Shankara",
+    "ig_followers": 15760,
+    "ig_handle": "gada_gada__gudumbashankara",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "10856",
+    "name": "Vk Gulia",
+    "ig_followers": 15624,
+    "ig_handle": "vk.gulia",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "7011",
+    "name": "Karan Gupta",
+    "ig_followers": 15569,
+    "ig_handle": "krossdraws",
+    "category": "Arts",
+    "subcategory": "Doodling & Animation"
+  },
+  {
+    "id": "45797",
+    "name": "Indian Car And Bike Memes",
+    "ig_followers": 14571,
+    "ig_handle": "automaniac_memer",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "8536",
+    "name": "Gauravv K Chawla",
+    "ig_followers": 14422,
+    "ig_handle": "gauravvkchawla",
+    "category": "Arts",
+    "subcategory": "Film-making & Cinematography"
+  },
+  {
+    "id": "7819",
+    "name": "Campus Bloggers",
+    "ig_followers": 12632,
+    "ig_handle": "campusbloggers",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "38430",
+    "name": "Alone",
+    "ig_followers": 12078,
+    "ig_handle": "reet.edits.01",
+    "category": "News, Media & Magazines",
+    "subcategory": "Entertainment"
+  },
+  {
+    "id": "45425",
+    "name": "Bhanu9122",
+    "ig_followers": 11809,
+    "ig_handle": "bhanu9122",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "25850",
+    "name": "Sarcasm",
+    "ig_followers": 11321,
+    "ig_handle": "_itsabhiofficial",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "11424",
+    "name": "Roshan",
+    "ig_followers": 11028,
+    "ig_handle": "roshanghatedit",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "41432",
+    "name": "Globalhub_bharath",
+    "ig_followers": 10725,
+    "ig_handle": "globalhub_bharath",
+    "category": "News, Media & Magazines",
+    "subcategory": "Lifestyle & Culture"
+  },
+  {
+    "id": "26964",
+    "name": "Amitoj Singh",
+    "ig_followers": 10637,
+    "ig_handle": "ramblingsbykasak",
+    "category": "Arts",
+    "subcategory": "Creative Writing & Story-Telling"
+  },
+  {
+    "id": "10791",
+    "name": "Anubhavsingh",
+    "ig_followers": 9985,
+    "ig_handle": "rinkalsingh333_",
+    "category": "Lifestyle & Living",
+    "subcategory": "Personal Vlogs"
+  },
+  {
+    "id": "11699",
+    "name": "The Viral Guy",
+    "ig_followers": 9764,
+    "ig_handle": "_the.viral.guy_",
+    "category": "Comedy & Memes",
+    "subcategory": "Viral & Memes"
+  },
+  {
+    "id": "51890",
+    "name": "Resumeelevato",
+    "ig_followers": 5440,
+    "ig_handle": "resumeelevato",
+    "category": "Community Pages",
+    "subcategory": "Professional/Career-focused Content"
+  }
+]
