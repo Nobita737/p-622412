@@ -50,47 +50,74 @@ serve(async (req) => {
       Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') ?? ''
     )
 
-    // Fetch data from JSON files
+    // Fetch data from JSON files in public directory
+    const baseUrl = 'https://pceldcylqpwrfkwbrlxl.supabase.co'; // Use your actual domain
     const [influencersResponse, influencersNoLocResponse, memePagesResponse] = await Promise.all([
-      fetch('https://pceldcylqpwrfkwbrlxl.supabase.co/storage/v1/object/public/data/influencers.json').catch(() => null),
-      fetch('https://pceldcylqpwrfkwbrlxl.supabase.co/storage/v1/object/public/data/influencers_no_loc.json').catch(() => null),
-      fetch('https://pceldcylqpwrfkwbrlxl.supabase.co/storage/v1/object/public/data/meme_pages.json').catch(() => null)
+      fetch(`${baseUrl}/data/influencers.json`).catch(() => null),
+      fetch(`${baseUrl}/data/influencers_no_loc.json`).catch(() => null),
+      fetch(`${baseUrl}/data/meme_pages.json`).catch(() => null)
     ]);
 
     let allCreators = [];
 
+    // Add logging to debug
+    console.log('Fetching creators data...');
+
     // Process influencers.json
     if (influencersResponse?.ok) {
-      const influencersData = await influencersResponse.json();
-      if (Array.isArray(influencersData)) {
-        allCreators.push(...influencersData.map(creator => ({
-          ...creator,
-          data_source: 'influencers'
-        })));
+      try {
+        const influencersData = await influencersResponse.json();
+        console.log('Influencers data loaded:', influencersData?.length || 0);
+        if (Array.isArray(influencersData)) {
+          allCreators.push(...influencersData.map(creator => ({
+            ...creator,
+            data_source: 'influencers'
+          })));
+        }
+      } catch (e) {
+        console.log('Error parsing influencers.json:', e);
       }
+    } else {
+      console.log('Failed to fetch influencers.json');
     }
 
     // Process influencers_no_loc.json
     if (influencersNoLocResponse?.ok) {
-      const influencersNoLocData = await influencersNoLocResponse.json();
-      if (Array.isArray(influencersNoLocData)) {
-        allCreators.push(...influencersNoLocData.map(creator => ({
-          ...creator,
-          data_source: 'influencers_no_loc'
-        })));
+      try {
+        const influencersNoLocData = await influencersNoLocResponse.json();
+        console.log('Influencers no loc data loaded:', influencersNoLocData?.length || 0);
+        if (Array.isArray(influencersNoLocData)) {
+          allCreators.push(...influencersNoLocData.map(creator => ({
+            ...creator,
+            data_source: 'influencers_no_loc'
+          })));
+        }
+      } catch (e) {
+        console.log('Error parsing influencers_no_loc.json:', e);
       }
+    } else {
+      console.log('Failed to fetch influencers_no_loc.json');
     }
 
     // Process meme_pages.json
     if (memePagesResponse?.ok) {
-      const memePagesData = await memePagesResponse.json();
-      if (Array.isArray(memePagesData)) {
-        allCreators.push(...memePagesData.map(creator => ({
-          ...creator,
-          data_source: 'meme_pages'
-        })));
+      try {
+        const memePagesData = await memePagesResponse.json();
+        console.log('Meme pages data loaded:', memePagesData?.length || 0);
+        if (Array.isArray(memePagesData)) {
+          allCreators.push(...memePagesData.map(creator => ({
+            ...creator,
+            data_source: 'meme_pages'
+          })));
+        }
+      } catch (e) {
+        console.log('Error parsing meme_pages.json:', e);
       }
+    } else {
+      console.log('Failed to fetch meme_pages.json');
     }
+
+    console.log('Total creators loaded from files:', allCreators.length);
 
     // If no data loaded from files, use fallback data
     if (allCreators.length === 0) {
