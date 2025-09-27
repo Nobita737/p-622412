@@ -53,17 +53,7 @@ export const AnalyticsCharts: React.FC<AnalyticsChartsProps> = ({
         </div>
 
         {/* ROI Gauge */}
-        <Card id="roi-section" className="shadow-lg border-0 bg-gradient-to-br from-white to-slate-50">
-          <CardHeader className="pb-4">
-            <CardTitle className="text-xl font-bold text-slate-800 flex items-center gap-2">
-              <div className="w-1 h-6 bg-gradient-to-b from-primary-500 to-primary-600 rounded-full"></div>
-              🎯 Average ROI Performance
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="flex justify-center py-8 my-[20px]">
-            <GaugeChart value={kpiData.avgRoi?.value || 485} max={700} title="Return on Investment" unit="%" />
-          </CardContent>
-        </Card>
+        
 
         {/* Creator Diversity */}
         <EnhancedPieChart data={creatorTiers} title="👥 Indian Creator Diversity" dataKey="percentage" nameKey="tier_name" colorKey="color_hex" />
