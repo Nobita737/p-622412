@@ -1,82 +1,86 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { DollarSign, CreditCard, AlertCircle, Plus, Download, RefreshCw, Clock, CheckCircle, XCircle, Info, Zap } from "lucide-react";
-
-const paymentsData = [
-  {
-    id: 1,
-    creator: "Maya Rodriguez",
-    amount: "$2,500",
-    status: "Pending",
-    dueDate: "2024-06-15",
-    campaign: "Summer Fashion 2024",
-    paymentMethod: "Bank Transfer",
-    daysOverdue: 0
-  },
-  {
-    id: 2,
-    creator: "Joe Chen",
-    amount: "$1,800",
-    status: "Paid",
-    dueDate: "2024-06-10",
-    campaign: "Tech Product Launch",
-    paymentMethod: "PayPal",
-    daysOverdue: 0
-  },
-  {
-    id: 3,
-    creator: "Sara Williams",
-    amount: "$3,200",
-    status: "Failed",
-    dueDate: "2024-06-12",
-    campaign: "Fitness Challenge",
-    paymentMethod: "Stripe",
-    daysOverdue: 2
-  },
-  {
-    id: 4,
-    creator: "Alex Thompson",
-    amount: "$4,100",
-    status: "Processing",
-    dueDate: "2024-06-16",
-    campaign: "Food & Lifestyle",
-    paymentMethod: "Bank Transfer",
-    daysOverdue: 0
-  }
-];
-
+const paymentsData = [{
+  id: 1,
+  creator: "Maya Rodriguez",
+  amount: "$2,500",
+  status: "Pending",
+  dueDate: "2024-06-15",
+  campaign: "Summer Fashion 2024",
+  paymentMethod: "Bank Transfer",
+  daysOverdue: 0
+}, {
+  id: 2,
+  creator: "Joe Chen",
+  amount: "$1,800",
+  status: "Paid",
+  dueDate: "2024-06-10",
+  campaign: "Tech Product Launch",
+  paymentMethod: "PayPal",
+  daysOverdue: 0
+}, {
+  id: 3,
+  creator: "Sara Williams",
+  amount: "$3,200",
+  status: "Failed",
+  dueDate: "2024-06-12",
+  campaign: "Fitness Challenge",
+  paymentMethod: "Stripe",
+  daysOverdue: 2
+}, {
+  id: 4,
+  creator: "Alex Thompson",
+  amount: "$4,100",
+  status: "Processing",
+  dueDate: "2024-06-16",
+  campaign: "Food & Lifestyle",
+  paymentMethod: "Bank Transfer",
+  daysOverdue: 0
+}];
 const getStatusBadge = (status: string, daysOverdue: number = 0) => {
   const statusConfig = {
-    Pending: { bg: "bg-yellow-100", text: "text-yellow-800", icon: Clock },
-    Paid: { bg: "bg-green-100", text: "text-green-800", icon: CheckCircle },
-    Failed: { bg: "bg-red-100", text: "text-red-800", icon: XCircle },
-    Processing: { bg: "bg-blue-100", text: "text-blue-800", icon: RefreshCw }
+    Pending: {
+      bg: "bg-yellow-100",
+      text: "text-yellow-800",
+      icon: Clock
+    },
+    Paid: {
+      bg: "bg-green-100",
+      text: "text-green-800",
+      icon: CheckCircle
+    },
+    Failed: {
+      bg: "bg-red-100",
+      text: "text-red-800",
+      icon: XCircle
+    },
+    Processing: {
+      bg: "bg-blue-100",
+      text: "text-blue-800",
+      icon: RefreshCw
+    }
   };
-  
   const config = statusConfig[status as keyof typeof statusConfig] || statusConfig.Pending;
   const Icon = config.icon;
-  
-  return (
-    <div className="flex items-center space-x-2">
+  return <div className="flex items-center space-x-2">
       <Badge className={`${config.bg} ${config.text} border-0`}>
         <Icon className="h-3 w-3 mr-1" />
         {status}
       </Badge>
-      {daysOverdue > 0 && (
-        <Badge variant="destructive" className="text-xs">
+      {daysOverdue > 0 && <Badge variant="destructive" className="text-xs">
           {daysOverdue}d overdue
-        </Badge>
-      )}
-    </div>
-  );
+        </Badge>}
+    </div>;
 };
-
-const PaymentRow = ({ payment }: { payment: typeof paymentsData[0] }) => (
-  <TableRow className="hover:bg-primary-25 group">
+const PaymentRow = ({
+  payment
+}: {
+  payment: typeof paymentsData[0];
+}) => <TableRow className="hover:bg-primary-25 group">
     <TableCell className="font-medium">
       <div>
         <div className="font-semibold text-slate-900">{payment.creator}</div>
@@ -100,9 +104,7 @@ const PaymentRow = ({ payment }: { payment: typeof paymentsData[0] }) => (
         <div className={payment.daysOverdue > 0 ? "text-red-600 font-medium" : ""}>
           {payment.dueDate}
         </div>
-        {payment.daysOverdue > 0 && (
-          <div className="text-xs text-red-500">Overdue</div>
-        )}
+        {payment.daysOverdue > 0 && <div className="text-xs text-red-500">Overdue</div>}
       </div>
     </TableCell>
     
@@ -112,40 +114,21 @@ const PaymentRow = ({ payment }: { payment: typeof paymentsData[0] }) => (
     
     <TableCell>
       <div className="flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity">
-        {payment.status === "Pending" && (
-          <Button variant="outline" size="sm" className="bg-primary-50 text-primary-700 hover:bg-primary-100 border-primary-200">
+        {payment.status === "Pending" && <Button variant="outline" size="sm" className="bg-primary-50 text-primary-700 hover:bg-primary-100 border-primary-200">
             Process
-          </Button>
-        )}
-        {payment.status === "Failed" && (
-          <Button variant="outline" size="sm" className="bg-red-50 text-red-700 hover:bg-red-100 border-red-200">
+          </Button>}
+        {payment.status === "Failed" && <Button variant="outline" size="sm" className="bg-red-50 text-red-700 hover:bg-red-100 border-red-200">
             <RefreshCw className="h-3 w-3 mr-1" />
             Retry
-          </Button>
-        )}
+          </Button>}
         <Button variant="ghost" size="sm" className="hover:bg-primary-25">
           View Details
         </Button>
       </div>
     </TableCell>
-  </TableRow>
-);
-
-const BudgetAlerts = () => (
-  <div className="space-y-3">
-    <div className="bg-red-50 border-l-4 border-red-400 p-4 rounded-r-xl">
-      <div className="flex items-center">
-        <XCircle className="h-5 w-5 text-red-600 mr-3" />
-        <div className="flex-1">
-          <p className="text-sm text-red-800">
-            <strong>Payment Failed:</strong> Sara Williams payment failed due to insufficient funds.
-            <Button variant="link" className="p-0 h-auto text-red-900 underline ml-2">
-              Retry payment
-            </Button>
-          </p>
-        </div>
-      </div>
-    </div>
+  </TableRow>;
+const BudgetAlerts = () => <div className="space-y-3">
+    
     
     <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-xl">
       <div className="flex items-center">
@@ -160,12 +143,9 @@ const BudgetAlerts = () => (
         </div>
       </div>
     </div>
-  </div>
-);
-
+  </div>;
 const Budget = () => {
-  return (
-    <TooltipProvider>
+  return <TooltipProvider>
       <div className="space-y-6">
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
@@ -314,9 +294,7 @@ const Budget = () => {
                   </TableRow>
                 </TableHeader>
                 <TableBody>
-                  {paymentsData.map((payment) => (
-                    <PaymentRow key={payment.id} payment={payment} />
-                  ))}
+                  {paymentsData.map(payment => <PaymentRow key={payment.id} payment={payment} />)}
                 </TableBody>
               </Table>
             </div>
@@ -325,8 +303,7 @@ const Budget = () => {
 
         {/* Mobile Payment Cards (Hidden on Desktop) */}
         <div className="lg:hidden space-y-4">
-          {paymentsData.map((payment) => (
-            <Card key={payment.id} className="clean-card">
+          {paymentsData.map(payment => <Card key={payment.id} className="clean-card">
               <CardContent className="p-4">
                 <div className="flex items-start justify-between mb-3">
                   <div>
@@ -342,35 +319,26 @@ const Budget = () => {
                 
                 <div className="flex items-center justify-between mb-3">
                   <span className="text-sm text-slate-600">Due: {payment.dueDate}</span>
-                  {payment.daysOverdue > 0 && (
-                    <Badge variant="destructive" className="text-xs">
+                  {payment.daysOverdue > 0 && <Badge variant="destructive" className="text-xs">
                       {payment.daysOverdue}d overdue
-                    </Badge>
-                  )}
+                    </Badge>}
                 </div>
                 
                 <div className="flex space-x-2">
-                  {payment.status === "Pending" && (
-                    <Button variant="outline" size="sm" className="flex-1 bg-primary-50 text-primary-700 border-primary-200">
+                  {payment.status === "Pending" && <Button variant="outline" size="sm" className="flex-1 bg-primary-50 text-primary-700 border-primary-200">
                       Process
-                    </Button>
-                  )}
-                  {payment.status === "Failed" && (
-                    <Button variant="outline" size="sm" className="flex-1 bg-red-50 text-red-700 border-red-200">
+                    </Button>}
+                  {payment.status === "Failed" && <Button variant="outline" size="sm" className="flex-1 bg-red-50 text-red-700 border-red-200">
                       Retry
-                    </Button>
-                  )}
+                    </Button>}
                   <Button variant="outline" size="sm" className="flex-1 hover:bg-primary-25">
                     View Details
                   </Button>
                 </div>
               </CardContent>
-            </Card>
-          ))}
+            </Card>)}
         </div>
       </div>
-    </TooltipProvider>
-  );
+    </TooltipProvider>;
 };
-
 export default Budget;
